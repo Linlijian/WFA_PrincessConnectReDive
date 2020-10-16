@@ -28,108 +28,172 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnGroupImage = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCClientBody));
+            this.btnCharacter = new System.Windows.Forms.Button();
+            this.btnTeamGuide = new System.Windows.Forms.Button();
+            this.btnHowToPlay = new System.Windows.Forms.Button();
             this.btnSetting = new System.Windows.Forms.Button();
-            this.btnImagetoPDF = new System.Windows.Forms.Button();
-            this.btnPDFtoImage = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnGroupImage
+            // btnCharacter
             // 
-            this.btnGroupImage.FlatAppearance.BorderSize = 0;
-            this.btnGroupImage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.btnGroupImage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnGroupImage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGroupImage.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGroupImage.ForeColor = System.Drawing.Color.White;
-            this.btnGroupImage.Image = global::WFA_PrincessConnectReDive.Properties.Resources.folder_64px;
-            this.btnGroupImage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGroupImage.Location = new System.Drawing.Point(600, 100);
-            this.btnGroupImage.Name = "btnGroupImage";
-            this.btnGroupImage.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnGroupImage.Size = new System.Drawing.Size(240, 80);
-            this.btnGroupImage.TabIndex = 3;
-            this.btnGroupImage.Text = "Group Image";
-            this.btnGroupImage.UseVisualStyleBackColor = true;
-            this.btnGroupImage.Click += new System.EventHandler(this.btnGroupImage_Click);
+            this.btnCharacter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.btnCharacter.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnCharacter.FlatAppearance.BorderSize = 2;
+            this.btnCharacter.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+            this.btnCharacter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnCharacter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCharacter.Font = new System.Drawing.Font("Itim", 16F);
+            this.btnCharacter.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnCharacter.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCharacter.Location = new System.Drawing.Point(92, 100);
+            this.btnCharacter.Name = "btnCharacter";
+            this.btnCharacter.Size = new System.Drawing.Size(240, 80);
+            this.btnCharacter.TabIndex = 0;
+            this.btnCharacter.Text = "ตัวละคร";
+            this.btnCharacter.UseVisualStyleBackColor = false;
+            this.btnCharacter.Click += new System.EventHandler(this.btnCharacter_Click);
+            // 
+            // btnTeamGuide
+            // 
+            this.btnTeamGuide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.btnTeamGuide.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnTeamGuide.FlatAppearance.BorderSize = 2;
+            this.btnTeamGuide.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+            this.btnTeamGuide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnTeamGuide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTeamGuide.Font = new System.Drawing.Font("Itim", 16F);
+            this.btnTeamGuide.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnTeamGuide.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTeamGuide.Location = new System.Drawing.Point(372, 100);
+            this.btnTeamGuide.Name = "btnTeamGuide";
+            this.btnTeamGuide.Size = new System.Drawing.Size(240, 80);
+            this.btnTeamGuide.TabIndex = 1;
+            this.btnTeamGuide.Text = "แนวทางจัดทีม";
+            this.btnTeamGuide.UseVisualStyleBackColor = false;
+            // 
+            // btnHowToPlay
+            // 
+            this.btnHowToPlay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.btnHowToPlay.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnHowToPlay.FlatAppearance.BorderSize = 2;
+            this.btnHowToPlay.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+            this.btnHowToPlay.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnHowToPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHowToPlay.Font = new System.Drawing.Font("Itim", 16F);
+            this.btnHowToPlay.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnHowToPlay.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHowToPlay.Location = new System.Drawing.Point(652, 100);
+            this.btnHowToPlay.Name = "btnHowToPlay";
+            this.btnHowToPlay.Size = new System.Drawing.Size(240, 80);
+            this.btnHowToPlay.TabIndex = 2;
+            this.btnHowToPlay.Text = "แนะนำการเล่น";
+            this.btnHowToPlay.UseVisualStyleBackColor = false;
             // 
             // btnSetting
             // 
-            this.btnSetting.FlatAppearance.BorderSize = 0;
-            this.btnSetting.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.btnSetting.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.btnSetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.btnSetting.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnSetting.FlatAppearance.BorderSize = 2;
+            this.btnSetting.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+            this.btnSetting.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
             this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSetting.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSetting.ForeColor = System.Drawing.Color.White;
-            this.btnSetting.Image = global::WFA_PrincessConnectReDive.Properties.Resources.settings_64px;
+            this.btnSetting.Font = new System.Drawing.Font("Itim", 16F);
+            this.btnSetting.ForeColor = System.Drawing.Color.DarkCyan;
             this.btnSetting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSetting.Location = new System.Drawing.Point(58, 210);
+            this.btnSetting.Location = new System.Drawing.Point(932, 100);
             this.btnSetting.Name = "btnSetting";
-            this.btnSetting.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnSetting.Size = new System.Drawing.Size(240, 80);
-            this.btnSetting.TabIndex = 2;
-            this.btnSetting.Text = "Setting";
-            this.btnSetting.UseVisualStyleBackColor = true;
-            this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
+            this.btnSetting.TabIndex = 3;
+            this.btnSetting.Text = "ตั้งค่า";
+            this.btnSetting.UseVisualStyleBackColor = false;
             // 
-            // btnImagetoPDF
+            // pictureBox2
             // 
-            this.btnImagetoPDF.FlatAppearance.BorderSize = 0;
-            this.btnImagetoPDF.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.btnImagetoPDF.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnImagetoPDF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImagetoPDF.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImagetoPDF.ForeColor = System.Drawing.Color.White;
-            this.btnImagetoPDF.Image = global::WFA_PrincessConnectReDive.Properties.Resources.pdf_64px;
-            this.btnImagetoPDF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnImagetoPDF.Location = new System.Drawing.Point(330, 100);
-            this.btnImagetoPDF.Name = "btnImagetoPDF";
-            this.btnImagetoPDF.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnImagetoPDF.Size = new System.Drawing.Size(240, 80);
-            this.btnImagetoPDF.TabIndex = 1;
-            this.btnImagetoPDF.Text = "Image to PDF";
-            this.btnImagetoPDF.UseVisualStyleBackColor = true;
-            this.btnImagetoPDF.Click += new System.EventHandler(this.btnImagetoPDF_Click);
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(504, 211);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(250, 70);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
             // 
-            // btnPDFtoImage
+            // pictureBox3
             // 
-            this.btnPDFtoImage.FlatAppearance.BorderSize = 0;
-            this.btnPDFtoImage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.btnPDFtoImage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnPDFtoImage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPDFtoImage.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPDFtoImage.ForeColor = System.Drawing.Color.White;
-            this.btnPDFtoImage.Image = global::WFA_PrincessConnectReDive.Properties.Resources.image_file_64px;
-            this.btnPDFtoImage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPDFtoImage.Location = new System.Drawing.Point(58, 100);
-            this.btnPDFtoImage.Name = "btnPDFtoImage";
-            this.btnPDFtoImage.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnPDFtoImage.Size = new System.Drawing.Size(240, 80);
-            this.btnPDFtoImage.TabIndex = 0;
-            this.btnPDFtoImage.Text = "PDF to Image";
-            this.btnPDFtoImage.UseVisualStyleBackColor = true;
-            this.btnPDFtoImage.Click += new System.EventHandler(this.btnPDFtoImage_Click);
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(483, 287);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(339, 696);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(797, 246);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(459, 746);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(0, 374);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(448, 696);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
             // 
             // UCClientBody
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.Controls.Add(this.btnGroupImage);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnSetting);
-            this.Controls.Add(this.btnImagetoPDF);
-            this.Controls.Add(this.btnPDFtoImage);
+            this.Controls.Add(this.btnHowToPlay);
+            this.Controls.Add(this.btnTeamGuide);
+            this.Controls.Add(this.btnCharacter);
             this.Name = "UCClientBody";
-            this.Size = new System.Drawing.Size(900, 560);
+            this.Size = new System.Drawing.Size(1250, 720);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnPDFtoImage;
-        private System.Windows.Forms.Button btnImagetoPDF;
+        private System.Windows.Forms.Button btnCharacter;
+        private System.Windows.Forms.Button btnTeamGuide;
+        private System.Windows.Forms.Button btnHowToPlay;
         private System.Windows.Forms.Button btnSetting;
-        private System.Windows.Forms.Button btnGroupImage;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

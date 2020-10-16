@@ -61,6 +61,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Character\UCCharacterList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Character\UCCharacterList.Designer.cs">
+      <DependentUpon>UCCharacterList.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Character\UCClientCharacter.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -97,6 +103,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControls\Character\UCCharacterList.resx">
+      <DependentUpon>UCCharacterList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Character\UCClientCharacter.resx">
       <DependentUpon>UCClientCharacter.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +160,10 @@
     <Content Include="Resources\update_32px.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Character\Character.csproj">
+      <Project>{5e4e4673-8152-4e25-a9e2-90f5a3e0069a}</Project>
+      <Name>Character</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UtilityLib\UtilityLib.csproj">
       <Project>{B4A79F70-8D7B-4E9F-A156-F325F46BCBAF}</Project>
       <Name>UtilityLib</Name>
@@ -160,6 +173,7 @@
       <Name>WFA-PlugIn</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

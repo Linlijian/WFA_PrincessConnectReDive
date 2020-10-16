@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Helper;
 using WFA_PrincessConnectReDive;
+using Character;
 
 namespace UserControls
 {
@@ -34,6 +35,7 @@ namespace UserControls
         {
             Global.PActiveHide(panelClient);
             Global.PActiveShow(PActiveSingleFolder);
+            UserControlHelper.SetUserControl(panelClientTask, userControl: new UCCharacterList(), dockStyle: UserControlDockStyle.DockStyleFill);
         }        
 
         private void btnMulFolder_Click(object sender, EventArgs e)

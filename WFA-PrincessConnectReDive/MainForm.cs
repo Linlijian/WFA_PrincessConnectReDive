@@ -99,6 +99,8 @@ namespace WFA_PrincessConnectReDive
             {
                 _obj = this;
                 UserControlHelper.SetUserControl(panelClientBody, userControl: new UCClientBody(), dockStyle: UserControlDockStyle.DockStyleFill);
+
+                // panelClientBody.BackgroundImage = Character.Resources.CharacterRes.bg_01;
             }
         }
         #endregion

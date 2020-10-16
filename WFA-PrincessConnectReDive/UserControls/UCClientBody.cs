@@ -22,13 +22,13 @@ namespace UserControls
         #region event
         #endregion
 
-        private void btnPDFtoImage_Click(object sender, EventArgs e)
+        private void btnCharacter_Click(object sender, EventArgs e)
         {
-            if (!MainForm.Instance.PnlClientBody.Controls.ContainsKey("UCClientPDF2IMG"))
+            if (!MainForm.Instance.PnlClientBody.Controls.ContainsKey("UCClientCharacter"))
             {
-                //UserControlHelper.SetUserControl(MainForm.Instance.PnlClientBody, userControl: new UCClientPDF2IMG(), dockStyle: UserControlDockStyle.DockStyleFill);
+                UserControlHelper.SetUserControl(MainForm.Instance.PnlClientBody, userControl: new UCClientCharacter(), dockStyle: UserControlDockStyle.DockStyleFill);
             }
-            MainForm.Instance.PnlClientBody.Controls["UCClientPDF2IMG"].BringToFront();
+            MainForm.Instance.PnlClientBody.Controls["UCClientCharacter"].BringToFront();
             MainForm.Instance.PnlTitle.BackColor = Color.FromArgb(32, 32, 32);
         }
 

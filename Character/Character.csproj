@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E4E4673-8152-4E25-A9E2-90F5A3E0069A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Character</RootNamespace>
+    <AssemblyName>Character</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\WFA-PDFHelper\packages\iTextSharp.5.5.9\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CharacterDA.cs" />
+    <Compile Include="CharacterDTO.cs" />
+    <Compile Include="CharacterModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\CharacterRes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CharacterRes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sorting.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UtilityLib\UtilityLib.csproj">
+      <Project>{B4A79F70-8D7B-4E9F-A156-F325F46BCBAF}</Project>
+      <Name>UtilityLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\bg_01.jpg" />
+    <Content Include="Resources\bg_02.jpg" />
+    <Content Include="Resources\bg_03.jpg" />
+    <Content Include="Resources\bg_04.jpg" />
+    <Content Include="Resources\bg_05.jpg" />
+    <Content Include="Resources\bg_06.jpg" />
+    <Content Include="Resources\bg_07.jpg" />
+    <Content Include="Resources\bg_08.jpg" />
+    <Content Include="Resources\bg_09.jpg" />
+    <Content Include="Resources\bg_10.jpg" />
+    <Content Include="Resources\bg_11.jpg" />
+    <Content Include="Resources\bg_12.jpg" />
+    <Content Include="Resources\bg_13.jpg" />
+    <Content Include="Resources\bg_14.jpg" />
+    <Content Include="Resources\bg_15.jpg" />
+    <Content Include="Resources\bg_17.jpg" />
+    <Content Include="Resources\btn-guild.png" />
+    <Content Include="Resources\btn-other.png" />
+    <Content Include="Resources\btn-page-top_d.png" />
+    <Content Include="Resources\btn-side-navi.png" />
+    <Content Include="Resources\btn_01_01.png" />
+    <Content Include="Resources\btn_01_02.png" />
+    <Content Include="Resources\btn_01_03.png" />
+    <Content Include="Resources\btn_02_01.png" />
+    <Content Include="Resources\btn_02_02.png" />
+    <Content Include="Resources\btn_02_03.png" />
+    <Content Include="Resources\btn_03_02.png" />
+    <Content Include="Resources\btn_03_03.png" />
+    <Content Include="Resources\btn_04_01.png" />
+    <Content Include="Resources\btn_04_02.png" />
+    <Content Include="Resources\btn_05_01-2.png" />
+    <Content Include="Resources\btn_05_03.png" />
+    <Content Include="Resources\btn_06_01.png" />
+    <Content Include="Resources\btn_06_03.png" />
+    <Content Include="Resources\btn_07_02.png" />
+    <Content Include="Resources\btn_07_03.png" />
+    <Content Include="Resources\btn_07_04.png" />
+    <Content Include="Resources\btn_07_05.png" />
+    <Content Include="Resources\btn_08_01.png" />
+    <Content Include="Resources\btn_09_01.png" />
+    <Content Include="Resources\btn_09_02.png" />
+    <Content Include="Resources\btn_09_04.png" />
+    <Content Include="Resources\btn_10_01.png" />
+    <Content Include="Resources\btn_10_02.png" />
+    <Content Include="Resources\btn_10_03.png" />
+    <Content Include="Resources\btn_11_01.png" />
+    <Content Include="Resources\btn_11_02.png" />
+    <Content Include="Resources\btn_11_03.png" />
+    <Content Include="Resources\btn_12_01.png" />
+    <Content Include="Resources\btn_12_02.png" />
+    <Content Include="Resources\btn_12_03.png" />
+    <Content Include="Resources\btn_12_04.png" />
+    <Content Include="Resources\btn_13_02.png" />
+    <Content Include="Resources\btn_13_03.png" />
+    <Content Include="Resources\btn_13_05.png" />
+    <Content Include="Resources\btn_14_01.png" />
+    <Content Include="Resources\btn_14_02.png" />
+    <Content Include="Resources\btn_14_03.png" />
+    <Content Include="Resources\btn_15_01.png" />
+    <Content Include="Resources\btn_15_02.png" />
+    <Content Include="Resources\btn_15_03.png" />
+    <Content Include="Resources\btn_15_04.png" />
+    <Content Include="Resources\btn_17_01.png" />
+    <Content Include="Resources\chara_01_01.png" />
+    <Content Include="Resources\chara_01_02.png" />
+    <Content Include="Resources\chara_01_03.png" />
+    <Content Include="Resources\chara_02_01.png" />
+    <Content Include="Resources\chara_02_02.png" />
+    <Content Include="Resources\chara_02_03.png" />
+    <Content Include="Resources\chara_03_02.png" />
+    <Content Include="Resources\chara_03_03.png" />
+    <Content Include="Resources\chara_04_01.png" />
+    <Content Include="Resources\chara_04_02.png" />
+    <Content Include="Resources\chara_05_01.png" />
+    <Content Include="Resources\chara_05_03.png" />
+    <Content Include="Resources\chara_06_01.png" />
+    <Content Include="Resources\chara_06_03.png" />
+    <Content Include="Resources\chara_07_02.png" />
+    <Content Include="Resources\chara_07_03.png" />
+    <Content Include="Resources\chara_07_04.png" />
+    <Content Include="Resources\chara_07_05.png" />
+    <Content Include="Resources\chara_08_01.png" />
+    <Content Include="Resources\chara_09_01.png" />
+    <Content Include="Resources\chara_09_02.png" />
+    <Content Include="Resources\chara_09_04.png" />
+    <Content Include="Resources\chara_10_01.png" />
+    <Content Include="Resources\chara_10_02.png" />
+    <Content Include="Resources\chara_10_03.png" />
+    <Content Include="Resources\chara_11_01.png" />
+    <Content Include="Resources\chara_11_02.png" />
+    <Content Include="Resources\chara_11_03.png" />
+    <Content Include="Resources\chara_12_01.png" />
+    <Content Include="Resources\chara_12_02.png" />
+    <Content Include="Resources\chara_12_03.png" />
+    <Content Include="Resources\chara_12_04.png" />
+    <Content Include="Resources\chara_13_02.png" />
+    <Content Include="Resources\chara_13_03.png" />
+    <Content Include="Resources\chara_13_05.png" />
+    <Content Include="Resources\chara_14_01.png" />
+    <Content Include="Resources\chara_14_02.png" />
+    <Content Include="Resources\chara_14_03.png" />
+    <Content Include="Resources\chara_15_01.png" />
+    <Content Include="Resources\chara_15_02.png" />
+    <Content Include="Resources\chara_15_03.png" />
+    <Content Include="Resources\chara_15_04.png" />
+    <Content Include="Resources\chara_17_01.png" />
+    <Content Include="Resources\faceicon_0.png" />
+    <Content Include="Resources\footer.jpg" />
+    <Content Include="Resources\guild-name_01.png" />
+    <Content Include="Resources\guild-name_02.png" />
+    <Content Include="Resources\guild-name_03.png" />
+    <Content Include="Resources\guild-name_04.png" />
+    <Content Include="Resources\guild-name_05.png" />
+    <Content Include="Resources\guild-name_06.png" />
+    <Content Include="Resources\guild-name_07.png" />
+    <Content Include="Resources\guild-name_08.png" />
+    <Content Include="Resources\guild-name_09.png" />
+    <Content Include="Resources\guild-name_10.png" />
+    <Content Include="Resources\guild-name_11.png" />
+    <Content Include="Resources\guild-name_12.png" />
+    <Content Include="Resources\guild-name_13.png" />
+    <Content Include="Resources\guild-name_14.png" />
+    <Content Include="Resources\guild-name_15.png" />
+    <Content Include="Resources\guild-name_17.png" />
+    <Content Include="Resources\i3playicon%281%29.png" />
+    <Content Include="Resources\icon-clover.png" />
+    <Content Include="Resources\logo_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CharacterRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CharacterRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
