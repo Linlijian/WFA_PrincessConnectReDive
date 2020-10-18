@@ -48,12 +48,27 @@
     <Compile Include="CharacterDTO.cs" />
     <Compile Include="CharacterModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resources\CharacterRes.Designer.cs">
+    <Compile Include="Sorting.cs" />
+    <Compile Include="Translate\CharacterBtn.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CharacterBtn.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Translate\CharacterName.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CharacterName.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Translate\CharacterRes.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CharacterRes.resx</DependentUpon>
     </Compile>
-    <Compile Include="Sorting.cs" />
+    <Compile Include="Translate\GuildName.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GuildName.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\UtilityLib\UtilityLib.csproj">
@@ -66,6 +81,8 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Resources\arrow_left.png" />
+    <Content Include="Resources\arrow_right.png" />
     <Content Include="Resources\bg_01.jpg" />
     <Content Include="Resources\bg_02.jpg" />
     <Content Include="Resources\bg_03.jpg" />
@@ -82,6 +99,7 @@
     <Content Include="Resources\bg_14.jpg" />
     <Content Include="Resources\bg_15.jpg" />
     <Content Include="Resources\bg_17.jpg" />
+    <Content Include="Resources\bg_19.jpg" />
     <Content Include="Resources\btn-guild.png" />
     <Content Include="Resources\btn-other.png" />
     <Content Include="Resources\btn-page-top_d.png" />
@@ -96,7 +114,7 @@
     <Content Include="Resources\btn_03_03.png" />
     <Content Include="Resources\btn_04_01.png" />
     <Content Include="Resources\btn_04_02.png" />
-    <Content Include="Resources\btn_05_01-2.png" />
+    <Content Include="Resources\btn_05_01.png" />
     <Content Include="Resources\btn_05_03.png" />
     <Content Include="Resources\btn_06_01.png" />
     <Content Include="Resources\btn_06_03.png" />
@@ -114,6 +132,7 @@
     <Content Include="Resources\btn_11_01.png" />
     <Content Include="Resources\btn_11_02.png" />
     <Content Include="Resources\btn_11_03.png" />
+    <Content Include="Resources\btn_11_04.png" />
     <Content Include="Resources\btn_12_01.png" />
     <Content Include="Resources\btn_12_02.png" />
     <Content Include="Resources\btn_12_03.png" />
@@ -129,6 +148,7 @@
     <Content Include="Resources\btn_15_03.png" />
     <Content Include="Resources\btn_15_04.png" />
     <Content Include="Resources\btn_17_01.png" />
+    <Content Include="Resources\btn_19_01.png" />
     <Content Include="Resources\chara_01_01.png" />
     <Content Include="Resources\chara_01_02.png" />
     <Content Include="Resources\chara_01_03.png" />
@@ -157,6 +177,7 @@
     <Content Include="Resources\chara_11_01.png" />
     <Content Include="Resources\chara_11_02.png" />
     <Content Include="Resources\chara_11_03.png" />
+    <Content Include="Resources\chara_11_04.png" />
     <Content Include="Resources\chara_12_01.png" />
     <Content Include="Resources\chara_12_02.png" />
     <Content Include="Resources\chara_12_03.png" />
@@ -172,6 +193,7 @@
     <Content Include="Resources\chara_15_03.png" />
     <Content Include="Resources\chara_15_04.png" />
     <Content Include="Resources\chara_17_01.png" />
+    <Content Include="Resources\chara_19_01.png" />
     <Content Include="Resources\faceicon_0.png" />
     <Content Include="Resources\footer.jpg" />
     <Content Include="Resources\guild-name_01.png" />
@@ -195,9 +217,21 @@
     <Content Include="Resources\logo_in.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\CharacterRes.resx">
+    <EmbeddedResource Include="Translate\CharacterBtn.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CharacterBtn.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translate\CharacterName.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CharacterName.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translate\CharacterRes.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>CharacterRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translate\GuildName.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>GuildName.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

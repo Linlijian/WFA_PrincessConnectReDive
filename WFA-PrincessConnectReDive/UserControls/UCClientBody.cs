@@ -29,7 +29,7 @@ namespace UserControls
                 UserControlHelper.SetUserControl(MainForm.Instance.PnlClientBody, userControl: new UCClientCharacter(), dockStyle: UserControlDockStyle.DockStyleFill);
             }
             MainForm.Instance.PnlClientBody.Controls["UCClientCharacter"].BringToFront();
-            MainForm.Instance.PnlTitle.BackColor = Color.FromArgb(32, 32, 32);
+            //MainForm.Instance.PnlTitle.BackColor = Color.FromArgb(32, 32, 32);
         }
 
         private void btnImagetoPDF_Click(object sender, EventArgs e)

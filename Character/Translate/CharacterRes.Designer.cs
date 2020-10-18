@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Character.Resources {
+namespace Character {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Character.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Character.Resources.CharacterRes", typeof(CharacterRes).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Character.Translate.CharacterRes", typeof(CharacterRes).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,26 @@ namespace Character.Resources {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap arrow_left {
+            get {
+                object obj = ResourceManager.GetObject("arrow_left", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap arrow_right {
+            get {
+                object obj = ResourceManager.GetObject("arrow_right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -223,6 +243,16 @@ namespace Character.Resources {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap bg_19 {
+            get {
+                object obj = ResourceManager.GetObject("bg_19", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap btn_01_01 {
             get {
                 object obj = ResourceManager.GetObject("btn_01_01", resourceCulture);
@@ -323,9 +353,9 @@ namespace Character.Resources {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap btn_05_01_2 {
+        public static System.Drawing.Bitmap btn_05_01 {
             get {
-                object obj = ResourceManager.GetObject("btn_05_01_2", resourceCulture);
+                object obj = ResourceManager.GetObject("btn_05_01", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,6 +533,16 @@ namespace Character.Resources {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap btn_11_04 {
+            get {
+                object obj = ResourceManager.GetObject("btn_11_04", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap btn_12_01 {
             get {
                 object obj = ResourceManager.GetObject("btn_12_01", resourceCulture);
@@ -646,6 +686,16 @@ namespace Character.Resources {
         public static System.Drawing.Bitmap btn_17_01 {
             get {
                 object obj = ResourceManager.GetObject("btn_17_01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap btn_19_01 {
+            get {
+                object obj = ResourceManager.GetObject("btn_19_01", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -973,6 +1023,16 @@ namespace Character.Resources {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap chara_11_04 {
+            get {
+                object obj = ResourceManager.GetObject("chara_11_04", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap chara_12_01 {
             get {
                 object obj = ResourceManager.GetObject("chara_12_01", resourceCulture);
@@ -1116,6 +1176,16 @@ namespace Character.Resources {
         public static System.Drawing.Bitmap chara_17_01 {
             get {
                 object obj = ResourceManager.GetObject("chara_17_01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap chara_19_01 {
+            get {
+                object obj = ResourceManager.GetObject("chara_19_01", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

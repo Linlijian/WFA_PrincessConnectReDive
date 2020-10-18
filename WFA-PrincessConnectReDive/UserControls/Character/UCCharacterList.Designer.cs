@@ -28,102 +28,110 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnImagetoPDF = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnGenerate = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.ddlGuildList = new System.Windows.Forms.ComboBox();
+            this.lblGuildNane = new System.Windows.Forms.Label();
+            this.lblCharacter = new System.Windows.Forms.Label();
+            this.ddlCharacterList = new System.Windows.Forms.ComboBox();
+            this.picboxCharacter = new System.Windows.Forms.PictureBox();
+            this.picboxCharacterBtn = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacterBtn)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnImagetoPDF
+            // ddlGuildList
             // 
-            this.btnImagetoPDF.FlatAppearance.BorderSize = 0;
-            this.btnImagetoPDF.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.btnImagetoPDF.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnImagetoPDF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImagetoPDF.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImagetoPDF.ForeColor = System.Drawing.Color.White;
-            this.btnImagetoPDF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnImagetoPDF.Location = new System.Drawing.Point(52, 47);
-            this.btnImagetoPDF.Name = "btnImagetoPDF";
-            this.btnImagetoPDF.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnImagetoPDF.Size = new System.Drawing.Size(240, 61);
-            this.btnImagetoPDF.TabIndex = 2;
-            this.btnImagetoPDF.Text = "เรือนเลิศรส";
-            this.btnImagetoPDF.UseVisualStyleBackColor = true;
+            this.ddlGuildList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.ddlGuildList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ddlGuildList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ddlGuildList.Font = new System.Drawing.Font("Itim", 12F);
+            this.ddlGuildList.ForeColor = System.Drawing.Color.DarkCyan;
+            this.ddlGuildList.FormattingEnabled = true;
+            this.ddlGuildList.Location = new System.Drawing.Point(85, 90);
+            this.ddlGuildList.Name = "ddlGuildList";
+            this.ddlGuildList.Size = new System.Drawing.Size(284, 27);
+            this.ddlGuildList.TabIndex = 2;
             // 
-            // button1
+            // lblGuildNane
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(312, 47);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button1.Size = new System.Drawing.Size(240, 61);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "ทวิงเคิลวิช";
-            this.button1.UseVisualStyleBackColor = true;
+            this.lblGuildNane.AutoSize = true;
+            this.lblGuildNane.Font = new System.Drawing.Font("Itim", 16F);
+            this.lblGuildNane.ForeColor = System.Drawing.Color.DarkCyan;
+            this.lblGuildNane.Location = new System.Drawing.Point(80, 50);
+            this.lblGuildNane.Name = "lblGuildNane";
+            this.lblGuildNane.Size = new System.Drawing.Size(50, 27);
+            this.lblGuildNane.TabIndex = 3;
+            this.lblGuildNane.Text = "กิลด์";
             // 
-            // btnGenerate
+            // lblCharacter
             // 
-            this.btnGenerate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.btnGenerate.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.btnGenerate.FlatAppearance.BorderSize = 2;
-            this.btnGenerate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.btnGenerate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnGenerate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGenerate.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerate.ForeColor = System.Drawing.Color.White;
-            this.btnGenerate.Location = new System.Drawing.Point(52, 114);
-            this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(240, 66);
-            this.btnGenerate.TabIndex = 11;
-            this.btnGenerate.Text = "Generate";
-            this.btnGenerate.UseVisualStyleBackColor = false;
+            this.lblCharacter.AutoSize = true;
+            this.lblCharacter.Font = new System.Drawing.Font("Itim", 16F);
+            this.lblCharacter.ForeColor = System.Drawing.Color.DarkCyan;
+            this.lblCharacter.Location = new System.Drawing.Point(80, 130);
+            this.lblCharacter.Name = "lblCharacter";
+            this.lblCharacter.Size = new System.Drawing.Size(81, 27);
+            this.lblCharacter.TabIndex = 4;
+            this.lblCharacter.Text = "ตัวละคร";
             // 
-            // button2
+            // ddlCharacterList
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(312, 114);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(240, 66);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Generate";
-            this.button2.UseVisualStyleBackColor = false;
+            this.ddlCharacterList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.ddlCharacterList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ddlCharacterList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ddlCharacterList.Font = new System.Drawing.Font("Itim", 12F);
+            this.ddlCharacterList.ForeColor = System.Drawing.Color.DarkCyan;
+            this.ddlCharacterList.FormattingEnabled = true;
+            this.ddlCharacterList.Location = new System.Drawing.Point(85, 173);
+            this.ddlCharacterList.Name = "ddlCharacterList";
+            this.ddlCharacterList.Size = new System.Drawing.Size(284, 27);
+            this.ddlCharacterList.TabIndex = 5;
+            // 
+            // picboxCharacter
+            // 
+            this.picboxCharacter.Location = new System.Drawing.Point(484, 90);
+            this.picboxCharacter.Name = "picboxCharacter";
+            this.picboxCharacter.Size = new System.Drawing.Size(476, 598);
+            this.picboxCharacter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picboxCharacter.TabIndex = 6;
+            this.picboxCharacter.TabStop = false;
+            // 
+            // picboxCharacterBtn
+            // 
+            this.picboxCharacterBtn.Location = new System.Drawing.Point(778, 31);
+            this.picboxCharacterBtn.Name = "picboxCharacterBtn";
+            this.picboxCharacterBtn.Size = new System.Drawing.Size(182, 53);
+            this.picboxCharacterBtn.TabIndex = 7;
+            this.picboxCharacterBtn.TabStop = false;
             // 
             // UCCharacterList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnGenerate);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnImagetoPDF);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.Controls.Add(this.picboxCharacterBtn);
+            this.Controls.Add(this.picboxCharacter);
+            this.Controls.Add(this.ddlCharacterList);
+            this.Controls.Add(this.lblCharacter);
+            this.Controls.Add(this.lblGuildNane);
+            this.Controls.Add(this.ddlGuildList);
             this.Font = new System.Drawing.Font("Itim", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "UCCharacterList";
-            this.Size = new System.Drawing.Size(644, 560);
+            this.Size = new System.Drawing.Size(994, 720);
+            this.Load += new System.EventHandler(this.UCCharacterList_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacterBtn)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnImagetoPDF;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnGenerate;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ComboBox ddlGuildList;
+        private System.Windows.Forms.Label lblGuildNane;
+        private System.Windows.Forms.Label lblCharacter;
+        private System.Windows.Forms.ComboBox ddlCharacterList;
+        private System.Windows.Forms.PictureBox picboxCharacter;
+        private System.Windows.Forms.PictureBox picboxCharacterBtn;
     }
 }

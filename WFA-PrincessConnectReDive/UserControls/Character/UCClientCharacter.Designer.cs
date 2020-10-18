@@ -31,15 +31,15 @@
             this.panelClient = new System.Windows.Forms.Panel();
             this.panelMultiFolder = new System.Windows.Forms.Panel();
             this.PActiveMultiFolder = new System.Windows.Forms.Panel();
-            this.btnFFAffiliation = new System.Windows.Forms.Button();
             this.panelSingleFolder = new System.Windows.Forms.Panel();
             this.PActiveSingleFolder = new System.Windows.Forms.Panel();
-            this.btnGuild = new System.Windows.Forms.Button();
             this.panelTitle = new System.Windows.Forms.Panel();
             this.lblActiveTask = new System.Windows.Forms.Label();
             this.panelHome = new System.Windows.Forms.Panel();
-            this.btnHome = new System.Windows.Forms.Button();
             this.panelClientTask = new System.Windows.Forms.Panel();
+            this.btnFFAffiliation = new System.Windows.Forms.Button();
+            this.btnGuild = new System.Windows.Forms.Button();
+            this.btnHome = new System.Windows.Forms.Button();
             this.panelClient.SuspendLayout();
             this.panelMultiFolder.SuspendLayout();
             this.panelSingleFolder.SuspendLayout();
@@ -49,7 +49,7 @@
             // 
             // panelClient
             // 
-            this.panelClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.panelClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
             this.panelClient.Controls.Add(this.panelMultiFolder);
             this.panelClient.Controls.Add(this.panelSingleFolder);
             this.panelClient.Controls.Add(this.panelTitle);
@@ -57,7 +57,7 @@
             this.panelClient.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelClient.Location = new System.Drawing.Point(0, 0);
             this.panelClient.Name = "panelClient";
-            this.panelClient.Size = new System.Drawing.Size(256, 560);
+            this.panelClient.Size = new System.Drawing.Size(256, 720);
             this.panelClient.TabIndex = 1;
             // 
             // panelMultiFolder
@@ -78,27 +78,6 @@
             this.PActiveMultiFolder.Size = new System.Drawing.Size(6, 35);
             this.PActiveMultiFolder.TabIndex = 15;
             // 
-            // btnFFAffiliation
-            // 
-            this.btnFFAffiliation.FlatAppearance.BorderSize = 0;
-            this.btnFFAffiliation.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.btnFFAffiliation.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnFFAffiliation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFFAffiliation.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFFAffiliation.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnFFAffiliation.Image = global::WFA_PrincessConnectReDive.Properties.Resources.info_32px;
-            this.btnFFAffiliation.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFFAffiliation.Location = new System.Drawing.Point(9, 0);
-            this.btnFFAffiliation.Name = "btnFFAffiliation";
-            this.btnFFAffiliation.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.btnFFAffiliation.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnFFAffiliation.Size = new System.Drawing.Size(244, 35);
-            this.btnFFAffiliation.TabIndex = 16;
-            this.btnFFAffiliation.Text = "          ไร้สังกัด";
-            this.btnFFAffiliation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFFAffiliation.UseVisualStyleBackColor = true;
-            this.btnFFAffiliation.Click += new System.EventHandler(this.btnMulFolder_Click);
-            // 
             // panelSingleFolder
             // 
             this.panelSingleFolder.Controls.Add(this.PActiveSingleFolder);
@@ -117,26 +96,6 @@
             this.PActiveSingleFolder.Size = new System.Drawing.Size(6, 35);
             this.PActiveSingleFolder.TabIndex = 15;
             // 
-            // btnGuild
-            // 
-            this.btnGuild.FlatAppearance.BorderSize = 0;
-            this.btnGuild.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.btnGuild.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.btnGuild.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuild.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuild.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnGuild.Image = global::WFA_PrincessConnectReDive.Properties.Resources.folder_32px;
-            this.btnGuild.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuild.Location = new System.Drawing.Point(9, 0);
-            this.btnGuild.Name = "btnGuild";
-            this.btnGuild.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.btnGuild.Size = new System.Drawing.Size(244, 35);
-            this.btnGuild.TabIndex = 0;
-            this.btnGuild.Text = "          กิลด์";
-            this.btnGuild.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuild.UseVisualStyleBackColor = true;
-            this.btnGuild.Click += new System.EventHandler(this.btnSingleFolder_Click);
-            // 
             // panelTitle
             // 
             this.panelTitle.Controls.Add(this.lblActiveTask);
@@ -152,7 +111,7 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lblActiveTask.AutoSize = true;
             this.lblActiveTask.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActiveTask.ForeColor = System.Drawing.Color.White;
+            this.lblActiveTask.ForeColor = System.Drawing.Color.DarkCyan;
             this.lblActiveTask.Location = new System.Drawing.Point(23, 38);
             this.lblActiveTask.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.lblActiveTask.Name = "lblActiveTask";
@@ -169,16 +128,66 @@
             this.panelHome.Size = new System.Drawing.Size(256, 38);
             this.panelHome.TabIndex = 0;
             // 
+            // panelClientTask
+            // 
+            this.panelClientTask.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.panelClientTask.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelClientTask.Location = new System.Drawing.Point(256, 0);
+            this.panelClientTask.Name = "panelClientTask";
+            this.panelClientTask.Size = new System.Drawing.Size(994, 720);
+            this.panelClientTask.TabIndex = 2;
+            // 
+            // btnFFAffiliation
+            // 
+            this.btnFFAffiliation.FlatAppearance.BorderSize = 0;
+            this.btnFFAffiliation.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+            this.btnFFAffiliation.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnFFAffiliation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFFAffiliation.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFFAffiliation.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnFFAffiliation.Image = global::WFA_PrincessConnectReDive.Properties.Resources.play_24px;
+            this.btnFFAffiliation.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFFAffiliation.Location = new System.Drawing.Point(9, 0);
+            this.btnFFAffiliation.Name = "btnFFAffiliation";
+            this.btnFFAffiliation.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            this.btnFFAffiliation.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnFFAffiliation.Size = new System.Drawing.Size(244, 35);
+            this.btnFFAffiliation.TabIndex = 16;
+            this.btnFFAffiliation.Text = "          ไร้สังกัด";
+            this.btnFFAffiliation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFFAffiliation.UseVisualStyleBackColor = true;
+            this.btnFFAffiliation.Click += new System.EventHandler(this.btnMulFolder_Click);
+            // 
+            // btnGuild
+            // 
+            this.btnGuild.FlatAppearance.BorderSize = 0;
+            this.btnGuild.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+            this.btnGuild.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnGuild.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuild.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuild.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnGuild.Image = global::WFA_PrincessConnectReDive.Properties.Resources.play_24px;
+            this.btnGuild.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuild.Location = new System.Drawing.Point(9, 0);
+            this.btnGuild.Name = "btnGuild";
+            this.btnGuild.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            this.btnGuild.Size = new System.Drawing.Size(244, 35);
+            this.btnGuild.TabIndex = 0;
+            this.btnGuild.Text = "          กิลด์";
+            this.btnGuild.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuild.UseVisualStyleBackColor = true;
+            this.btnGuild.Click += new System.EventHandler(this.btnSingleFolder_Click);
+            // 
             // btnHome
             // 
             this.btnHome.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnHome.FlatAppearance.BorderSize = 0;
-            this.btnHome.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(151)))), ((int)(((byte)(174)))));
-            this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(137)))), ((int)(((byte)(163)))));
+            this.btnHome.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+            this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnHome.Image = global::WFA_PrincessConnectReDive.Properties.Resources.home_32px;
+            this.btnHome.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnHome.Image = global::WFA_PrincessConnectReDive.Properties.Resources.home_32px2;
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.Location = new System.Drawing.Point(0, 0);
             this.btnHome.Name = "btnHome";
@@ -190,14 +199,6 @@
             this.btnHome.UseVisualStyleBackColor = true;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // panelClientTask
-            // 
-            this.panelClientTask.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelClientTask.Location = new System.Drawing.Point(256, 0);
-            this.panelClientTask.Name = "panelClientTask";
-            this.panelClientTask.Size = new System.Drawing.Size(644, 560);
-            this.panelClientTask.TabIndex = 2;
-            // 
             // UCClientCharacter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -206,7 +207,7 @@
             this.Controls.Add(this.panelClientTask);
             this.Controls.Add(this.panelClient);
             this.Name = "UCClientCharacter";
-            this.Size = new System.Drawing.Size(900, 560);
+            this.Size = new System.Drawing.Size(1250, 720);
             this.panelClient.ResumeLayout(false);
             this.panelMultiFolder.ResumeLayout(false);
             this.panelSingleFolder.ResumeLayout(false);
@@ -220,7 +221,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panelClient;
-        private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.Panel PActiveSingleFolder;
         private System.Windows.Forms.Button btnGuild;
         private System.Windows.Forms.Label lblActiveTask;
@@ -231,5 +231,6 @@
         private System.Windows.Forms.Panel panelMultiFolder;
         private System.Windows.Forms.Panel PActiveMultiFolder;
         private System.Windows.Forms.Button btnFFAffiliation;
+        private System.Windows.Forms.Button btnHome;
     }
 }

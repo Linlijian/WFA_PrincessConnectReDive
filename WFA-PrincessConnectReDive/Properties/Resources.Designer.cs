@@ -133,6 +133,26 @@ namespace WFA_PrincessConnectReDive.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap home_32px1 {
+            get {
+                object obj = ResourceManager.GetObject("home_32px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home_32px2 {
+            get {
+                object obj = ResourceManager.GetObject("home_32px2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap home_page_96px {
             get {
                 object obj = ResourceManager.GetObject("home_page_96px", resourceCulture);
@@ -226,6 +246,26 @@ namespace WFA_PrincessConnectReDive.Properties {
         internal static System.Drawing.Bitmap pdf_window_32px {
             get {
                 object obj = ResourceManager.GetObject("pdf_window_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_24px {
+            get {
+                object obj = ResourceManager.GetObject("play_24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_50px {
+            get {
+                object obj = ResourceManager.GetObject("play_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

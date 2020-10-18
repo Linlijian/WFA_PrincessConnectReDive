@@ -61,6 +61,11 @@ namespace WFA_PrincessConnectReDive
             get { return panelTitle; }
             set { panelTitle = value; }
         }
+        public Panel PnlTop
+        {
+            get { return panelTop; }
+            set { panelTop = value; }
+        }
 
         public MainForm()
         {
