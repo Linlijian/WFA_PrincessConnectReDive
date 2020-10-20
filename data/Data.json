@@ -1,0 +1,18 @@
+﻿[
+  {
+    "Charc": "chara_01_01",
+    "BtnCharac": "btn_01_01",
+    "UnionBurst": "UnionBurst_01",
+    "Skill1": "Skill_03",
+    "Skill2": "Skill_01",
+    "EXSkill": "EXSkill_01"
+  },
+  {
+    "Charc": "chara_01_02",
+    "BtnCharac": "btn_01_02",
+    "UnionBurst": "UnionBurst_02",
+    "Skill1": "Skill_03",
+    "Skill2": "Skill_04",
+    "EXSkill": "EXSkill_03"
+  }
+]
