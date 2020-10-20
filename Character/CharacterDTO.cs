@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UtilityLib;
 
-namespace IMG2PDF
+namespace Character
 {
     public class CharacterDTO : GlobalDTO
     {
@@ -16,30 +16,25 @@ namespace IMG2PDF
         {
             Model = new CharacterModel();
             Models = new List<CharacterModel>();
-            Model.IMG2PDFModels = new List<IMG2PDFModels>();
-            Model.IMG2FOLDERModels = new List<IMG2FOLDERModels>();
-
-            SubModel = new SUB_IMG2FOLDERModels();
         }
 
         /// <summary>
-        ///    Property in IMG2PDFDTO
+        ///    Property in Character
         /// <summary>
         public CharacterModel Model { get; set; }
-        public SUB_IMG2FOLDERModels SubModel { get; set; }
         public List<CharacterModel> Models { get; set; }
     }
 
     public class IMG2PDFGenerateType
     {
         /// <summary>
-        /// image to pdf
+        /// Guild Name
         /// </summary>
-        public const string UCIMG2PDFF001 = "UCIMG2PDFF001";
+        public const string DDL001 = "DDL001";
         /// <summary>
-        /// image to folder
+        /// Character Name
         /// </summary>
-        public const string UCIMG2PDFF002 = "UCIMG2PDFF002";
+        public const string DDL002 = "DDL002";
         /// <summary>
         /// image to folder sort
         /// </summary>

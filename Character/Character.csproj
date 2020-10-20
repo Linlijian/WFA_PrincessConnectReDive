@@ -33,6 +33,10 @@
     <Reference Include="itextsharp">
       <HintPath>..\..\WFA-PDFHelper\packages\iTextSharp.5.5.9\lib\itextsharp.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -48,7 +52,6 @@
     <Compile Include="CharacterDTO.cs" />
     <Compile Include="CharacterModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sorting.cs" />
     <Compile Include="Translate\CharacterBtn.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -77,6 +80,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="file.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
@@ -194,6 +198,11 @@
     <Content Include="Resources\chara_15_04.png" />
     <Content Include="Resources\chara_17_01.png" />
     <Content Include="Resources\chara_19_01.png" />
+    <Content Include="Resources\EXSkill_01.png" />
+    <Content Include="Resources\EXSkill_02.png" />
+    <Content Include="Resources\EXSkill_03.png" />
+    <Content Include="Resources\EXSkill_04.png" />
+    <Content Include="Resources\EXSkill_05.png" />
     <Content Include="Resources\faceicon_0.png" />
     <Content Include="Resources\footer.jpg" />
     <Content Include="Resources\guild-name_01.png" />
@@ -215,6 +224,30 @@
     <Content Include="Resources\i3playicon%281%29.png" />
     <Content Include="Resources\icon-clover.png" />
     <Content Include="Resources\logo_in.png" />
+    <Content Include="Resources\Skill_01.png" />
+    <Content Include="Resources\Skill_02.png" />
+    <Content Include="Resources\Skill_03.png" />
+    <Content Include="Resources\Skill_04.png" />
+    <Content Include="Resources\Skill_05.png" />
+    <Content Include="Resources\Skill_06.png" />
+    <Content Include="Resources\Skill_07.png" />
+    <Content Include="Resources\Skill_08.png" />
+    <Content Include="Resources\Skill_09.png" />
+    <Content Include="Resources\Skill_10.png" />
+    <Content Include="Resources\Skill_11.png" />
+    <Content Include="Resources\Skill_12.png" />
+    <Content Include="Resources\Skill_13.png" />
+    <Content Include="Resources\Skill_14.png" />
+    <Content Include="Resources\Skill_15.png" />
+    <Content Include="Resources\Skill_16.png" />
+    <Content Include="Resources\testSkill.png" />
+    <Content Include="Resources\UnionBurst_01.png" />
+    <Content Include="Resources\UnionBurst_02.png" />
+    <Content Include="Resources\UnionBurst_03.png" />
+    <Content Include="Resources\UnionBurst_04.png" />
+    <Content Include="Resources\UnionBurst_05.png" />
+    <Content Include="Resources\UnionBurst_06.png" />
+    <Content Include="Resources\UnionBurst_07.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Translate\CharacterBtn.resx">

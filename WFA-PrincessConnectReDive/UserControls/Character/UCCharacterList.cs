@@ -21,6 +21,8 @@ namespace Character
     public partial class UCCharacterList : UserControl
     {
         #region init
+        private CharacterDA CHARC = new CharacterDA();
+
         public UCCharacterList()
         {
             InitializeComponent();
@@ -43,7 +45,12 @@ namespace Character
               .Where(p => p.PropertyType == typeof(string) && p.Name == ddlCharacterList.SelectedValue.ToString())
               .Select(x => new DropDownList { TEXT = x.GetValue(null, null).ToString() })
               .First();
-            picboxCharacterBtn.Image = (Image)CharacterRes.GetObject(characterBtn.TEXT);           
+            picboxCharacterBtn.Image = (Image)CharacterRes.GetObject(characterBtn.TEXT);
+
+            //using (WaitFormGif form = new WaitFormGif(Generate))
+            //{
+            //    form.ShowDialog(this);
+            //}        
         }
         #endregion
 
