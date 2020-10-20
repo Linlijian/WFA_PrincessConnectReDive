@@ -12,6 +12,9 @@ using System.Resources;
 using System.Reflection;
 using System.IO;
 using System.Collections;
+using System.Net;
+using WFA.PlugIn;
+using Newtonsoft.Json;
 
 namespace Character
 {
@@ -32,6 +35,7 @@ namespace Character
             //dll
             BindGuildLis();
             BindCharacterLis();
+
             //defualt
             picboxCharacter.Image = (Image)CharacterRes.GetObject(ddlCharacterList.SelectedValue.ToString());
             var characterBtn = typeof(CharacterBtn)
@@ -39,13 +43,18 @@ namespace Character
               .Where(p => p.PropertyType == typeof(string) && p.Name == ddlCharacterList.SelectedValue.ToString())
               .Select(x => new DropDownList { TEXT = x.GetValue(null, null).ToString() })
               .First();
-            picboxCharacterBtn.Image = (Image)CharacterRes.GetObject(characterBtn.TEXT);
-
+            picboxCharacterBtn.Image = (Image)CharacterRes.GetObject(characterBtn.TEXT);           
         }
-
         #endregion
 
         #region method
+        private void LoadGif()
+        {
+            for (int i = 0; i < 1000; i++)
+            {
+                i--;
+            }
+        }
         private void BindGuildLis()
         {
             var guildList = typeof(GuildName)

@@ -28,12 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCCharacterList));
             this.ddlGuildList = new System.Windows.Forms.ComboBox();
             this.lblGuildNane = new System.Windows.Forms.Label();
             this.lblCharacter = new System.Windows.Forms.Label();
             this.ddlCharacterList = new System.Windows.Forms.ComboBox();
             this.picboxCharacter = new System.Windows.Forms.PictureBox();
             this.picboxCharacterBtn = new System.Windows.Forms.PictureBox();
+            this.btnUnionBurst = new System.Windows.Forms.Button();
+            this.btnSkill_1 = new System.Windows.Forms.Button();
+            this.btnSkill_2 = new System.Windows.Forms.Button();
+            this.btnExSkill = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picboxCharacter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxCharacterBtn)).BeginInit();
             this.SuspendLayout();
@@ -90,7 +95,7 @@
             // 
             this.picboxCharacter.Location = new System.Drawing.Point(484, 90);
             this.picboxCharacter.Name = "picboxCharacter";
-            this.picboxCharacter.Size = new System.Drawing.Size(476, 598);
+            this.picboxCharacter.Size = new System.Drawing.Size(476, 557);
             this.picboxCharacter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picboxCharacter.TabIndex = 6;
             this.picboxCharacter.TabStop = false;
@@ -103,11 +108,89 @@
             this.picboxCharacterBtn.TabIndex = 7;
             this.picboxCharacterBtn.TabStop = false;
             // 
+            // btnUnionBurst
+            // 
+            this.btnUnionBurst.BackColor = System.Drawing.Color.Transparent;
+            this.btnUnionBurst.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUnionBurst.BackgroundImage")));
+            this.btnUnionBurst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnUnionBurst.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(185)))), ((int)(((byte)(219)))));
+            this.btnUnionBurst.FlatAppearance.BorderSize = 2;
+            this.btnUnionBurst.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+            this.btnUnionBurst.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.btnUnionBurst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUnionBurst.Font = new System.Drawing.Font("Itim", 16F);
+            this.btnUnionBurst.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnUnionBurst.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUnionBurst.Location = new System.Drawing.Point(85, 218);
+            this.btnUnionBurst.Name = "btnUnionBurst";
+            this.btnUnionBurst.Size = new System.Drawing.Size(284, 104);
+            this.btnUnionBurst.TabIndex = 15;
+            this.btnUnionBurst.Text = "                  xxx";
+            this.btnUnionBurst.UseVisualStyleBackColor = false;
+            // 
+            // btnSkill_1
+            // 
+            this.btnSkill_1.BackColor = System.Drawing.Color.Transparent;
+            this.btnSkill_1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(185)))), ((int)(((byte)(219)))));
+            this.btnSkill_1.FlatAppearance.BorderSize = 2;
+            this.btnSkill_1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+            this.btnSkill_1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnSkill_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkill_1.Font = new System.Drawing.Font("Itim", 16F);
+            this.btnSkill_1.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnSkill_1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSkill_1.Location = new System.Drawing.Point(85, 328);
+            this.btnSkill_1.Name = "btnSkill_1";
+            this.btnSkill_1.Size = new System.Drawing.Size(284, 104);
+            this.btnSkill_1.TabIndex = 16;
+            this.btnSkill_1.Text = "                  xxx";
+            this.btnSkill_1.UseVisualStyleBackColor = false;
+            // 
+            // btnSkill_2
+            // 
+            this.btnSkill_2.BackColor = System.Drawing.Color.Transparent;
+            this.btnSkill_2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(185)))), ((int)(((byte)(219)))));
+            this.btnSkill_2.FlatAppearance.BorderSize = 2;
+            this.btnSkill_2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+            this.btnSkill_2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnSkill_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkill_2.Font = new System.Drawing.Font("Itim", 16F);
+            this.btnSkill_2.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnSkill_2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSkill_2.Location = new System.Drawing.Point(85, 438);
+            this.btnSkill_2.Name = "btnSkill_2";
+            this.btnSkill_2.Size = new System.Drawing.Size(284, 104);
+            this.btnSkill_2.TabIndex = 17;
+            this.btnSkill_2.Text = "                  xxx";
+            this.btnSkill_2.UseVisualStyleBackColor = false;
+            // 
+            // btnExSkill
+            // 
+            this.btnExSkill.BackColor = System.Drawing.Color.Transparent;
+            this.btnExSkill.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(185)))), ((int)(((byte)(219)))));
+            this.btnExSkill.FlatAppearance.BorderSize = 2;
+            this.btnExSkill.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+            this.btnExSkill.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.btnExSkill.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExSkill.Font = new System.Drawing.Font("Itim", 16F);
+            this.btnExSkill.ForeColor = System.Drawing.Color.DarkCyan;
+            this.btnExSkill.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExSkill.Location = new System.Drawing.Point(85, 548);
+            this.btnExSkill.Name = "btnExSkill";
+            this.btnExSkill.Size = new System.Drawing.Size(284, 104);
+            this.btnExSkill.TabIndex = 18;
+            this.btnExSkill.Text = "                  xxx";
+            this.btnExSkill.UseVisualStyleBackColor = false;
+            // 
             // UCCharacterList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(227)))), ((int)(((byte)(234)))));
+            this.Controls.Add(this.btnExSkill);
+            this.Controls.Add(this.btnSkill_2);
+            this.Controls.Add(this.btnSkill_1);
+            this.Controls.Add(this.btnUnionBurst);
             this.Controls.Add(this.picboxCharacterBtn);
             this.Controls.Add(this.picboxCharacter);
             this.Controls.Add(this.ddlCharacterList);
@@ -116,7 +199,7 @@
             this.Controls.Add(this.ddlGuildList);
             this.Font = new System.Drawing.Font("Itim", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "UCCharacterList";
-            this.Size = new System.Drawing.Size(994, 720);
+            this.Size = new System.Drawing.Size(994, 680);
             this.Load += new System.EventHandler(this.UCCharacterList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picboxCharacter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxCharacterBtn)).EndInit();
@@ -133,5 +216,9 @@
         private System.Windows.Forms.ComboBox ddlCharacterList;
         private System.Windows.Forms.PictureBox picboxCharacter;
         private System.Windows.Forms.PictureBox picboxCharacterBtn;
+        private System.Windows.Forms.Button btnUnionBurst;
+        private System.Windows.Forms.Button btnSkill_1;
+        private System.Windows.Forms.Button btnSkill_2;
+        private System.Windows.Forms.Button btnExSkill;
     }
 }
