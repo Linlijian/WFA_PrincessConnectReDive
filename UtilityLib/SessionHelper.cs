@@ -30,5 +30,8 @@ namespace UtilityLib
         public static string XML_FOLDER_OUTPUT;
         public static string XML_CASE_SELECT;
         public static string XML_DUP_FILE;
+
+        public static List<FormState> SYS_JSON_FILE;
+     
     }
 }

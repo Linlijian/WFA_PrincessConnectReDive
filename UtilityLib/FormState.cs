@@ -8,9 +8,11 @@ namespace UtilityLib
 {
     public class FormState
     {
-        public string FolderIntput { get; set; }
-        public string FolderOutput { get; set; }
-        public string CaseSelect { get; set; }
-        public string DupFile { get; set; }
+        public string CHARAC { get; set; }
+        public string BTN_CHARAC { get; set; }
+        public string UNION_BURST { get; set; }
+        public string SKILL1 { get; set; }
+        public string SKILL2 { get; set; }
+        public string EXSKILL { get; set; }
     }
 }

@@ -26,6 +26,13 @@ namespace UtilityLib
 
             return Convert.ToInt32(data);
         }
+        public static string AsString(this object data)
+        {
+            if (IsNullOrEmpty(data))
+                return data != null ? Convert.ToString(data) : "";
+
+            return Convert.ToString(data);
+        }
         public static TSource MergeObject<TSource, TTarget>(this TSource obj, TTarget obj2)
             where TSource : class
             where TTarget : class

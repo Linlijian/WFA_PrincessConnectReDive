@@ -58,10 +58,12 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::WFA_PlugIn.Properties.Resources.youtube_64px;
-            this.pictureBox1.Location = new System.Drawing.Point(205, 77);
+            this.pictureBox1.BackColor = System.Drawing.Color.Black;
+            this.pictureBox1.Image = global::WFA_PlugIn.Properties.Resources.CharcLoading;
+            this.pictureBox1.Location = new System.Drawing.Point(160, 47);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
+            this.pictureBox1.Size = new System.Drawing.Size(179, 162);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
@@ -69,7 +71,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(500, 300);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
