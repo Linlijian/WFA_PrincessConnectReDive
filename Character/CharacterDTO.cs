@@ -39,13 +39,11 @@ namespace Character
         /// image to folder sort
         /// </summary>
         public const string GET_SKILL = "GET_SKILL";
-        /// <summary>
-        /// image to multi folder
-        /// </summary>
-        public const string UCIMG2PDFF003 = "UCIMG2PDFF003";
-        /// <summary>
-        /// image to multi folder sort
-        /// </summary>
-        public const string IMG2PDFF003SORT = "IMG2PDFF003SORT";
+
+        public const string GifSkill = "GifSkill";
+        public const string UnionBurst = "UnionBurst";
+        public const string Skill1 = "Skill1";
+        public const string Skill2 = "Skill2";
+        public const string ExSkill = "ExSkill";
     }
 }

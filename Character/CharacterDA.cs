@@ -31,6 +31,7 @@ namespace Character
             switch (dto.Model.GenerateType)
             {
                 case CharacterGenerateType.GET_SKILL: return GET_SKILL(dto);
+                case CharacterGenerateType.GifSkill: return GifSkill(dto);
             }
             return dto;
         }
@@ -58,6 +59,31 @@ namespace Character
                     GIF_SKILL2 = x.GIFSKILL2,
                     GIF_UNION_BURST = x.GIFUNIONBURST
                 }).FirstOrDefault();
+
+            return dto;
+        }
+        public CharacterDTO GifSkill(CharacterDTO dto)
+        {
+            var model = SessionHelper.SYS_JSON_FILE.Where(m => m.CHARC == dto.Model.CHARAC)
+                .Select(x => new CharacterModel
+                {
+                    CHARAC = x.CHARC,
+                    BTN_CHARAC = x.BTNCHARAC,
+                    SKILL1 = x.SKILL1,
+                    SKILL2 = x.SKILL2,
+                    EXSKILL = x.EXSKILL,
+                    UNION_BURST = x.UNIONBURST,
+                    GIF_SKILL1 = x.GIFSKILL1,
+                    GIF_SKILL2 = x.GIFSKILL2,
+                    GIF_UNION_BURST = x.GIFUNIONBURST
+                }).FirstOrDefault();
+
+            switch (dto.Model.KEY_SKILL)
+            {
+                case CharacterGenerateType.UnionBurst:  dto.Model.LINK_GIF = model.GIF_UNION_BURST; break;
+                case CharacterGenerateType.Skill1: dto.Model.LINK_GIF = model.GIF_SKILL1; break;
+                case CharacterGenerateType.Skill2: dto.Model.LINK_GIF = model.GIF_SKILL2; break;
+            }
 
             return dto;
         }

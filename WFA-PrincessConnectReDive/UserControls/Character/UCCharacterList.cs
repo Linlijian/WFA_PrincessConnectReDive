@@ -29,38 +29,89 @@ namespace Character
         }
         private ResourceManager CharacterRes = new ResourceManager("Character.Translate.CharacterRes", typeof(CharacterRes).Assembly);
         private ResourceManager CharacterBtn = new ResourceManager("Character.Translate.CharacterBtn", typeof(CharacterBtn).Assembly);
-        #endregion
 
-        #region form
         private void UCCharacterList_Load(object sender, EventArgs e)
-        {
-            //dll
+        {           
             BindGuildLis();
             BindCharacterLis();
+            ShowButtonImage();
 
-            //defualt
-            picboxCharacter.Image = (Image)CharacterRes.GetObject(ddlCharacterList.SelectedValue.ToString());
-            var characterBtn = typeof(CharacterBtn)
-              .GetProperties(BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Public)
-              .Where(p => p.PropertyType == typeof(string) && p.Name == ddlCharacterList.SelectedValue.ToString())
-              .Select(x => new DropDownList { TEXT = x.GetValue(null, null).ToString() })
-              .First();
-            picboxCharacterBtn.Image = (Image)CharacterRes.GetObject(characterBtn.TEXT);
+            var dto = new CharacterDA();
 
-            //using (WaitFormGif form = new WaitFormGif(Generate))
-            //{
-            //    form.ShowDialog(this);
-            //}        
+            dto.DTO.Model.GenerateType = CharacterGenerateType.GET_SKILL;
+            dto.DTO.Model.CHARAC = ddlCharacterList.SelectedValue.ToString();
+            dto.Generate(dto.DTO);
+
+            picboxCharacter.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.CHARAC);
+            picboxCharacterBtn.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.BTN_CHARAC);
+            btnUnionBurst.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.UNION_BURST);
+            btnSkill_1.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.SKILL1);
+            btnSkill_2.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.SKILL2);
+            btnExSkill.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.EXSKILL);
+
+            CHARC = dto;
+        }
+        #endregion
+
+        #region event
+        private void btnUnionBurst_Click(object sender, EventArgs e)
+        {
+            CHARC.DTO.Model.KEY_SKILL = CharacterGenerateType.UnionBurst;
+            using (WaitFormGif form = new WaitFormGif(LoadGif))
+            {
+                form.ShowDialog(this);
+            }
+        }
+        private void btnSkill_1_Click(object sender, EventArgs e)
+        {
+            CHARC.DTO.Model.KEY_SKILL = CharacterGenerateType.Skill1;
+            using (WaitFormGif form = new WaitFormGif(LoadGif))
+            {
+                form.ShowDialog(this);
+            }
+        }
+        private void btnSkill_2_Click(object sender, EventArgs e)
+        {
+            CHARC.DTO.Model.KEY_SKILL = CharacterGenerateType.Skill2;
+            using (WaitFormGif form = new WaitFormGif(LoadGif))
+            {
+                form.ShowDialog(this);
+            }
+        }
+        private void btnExSkill_Click(object sender, EventArgs e)
+        {
+            CHARC.DTO.Model.KEY_SKILL = CharacterGenerateType.ExSkill;
+            using (WaitFormGif form = new WaitFormGif(LoadGif))
+            {
+                form.ShowDialog(this);
+            }
         }
         #endregion
 
         #region method
         private void LoadGif()
         {
-            for (int i = 0; i < 1000; i++)
-            {
-                i--;
-            }
+            var dto = new CharacterDA();
+
+            dto = CHARC;
+            dto.DTO.Model.GenerateType = CharacterGenerateType.GifSkill;
+            dto.Generate(dto.DTO);
+
+            picboxGif.Load(dto.DTO.Model.LINK_GIF);
+        }
+        private void ShowButtonImage()
+        {
+            btnExSkill.Show();
+            btnSkill_1.Show();
+            btnSkill_2.Show();
+            btnUnionBurst.Show();
+        }
+        private void HideButtonImage()
+        {
+            btnExSkill.Hide();
+            btnSkill_1.Hide();
+            btnSkill_2.Hide();
+            btnUnionBurst.Hide();
         }
         private void BindGuildLis()
         {
@@ -103,13 +154,21 @@ namespace Character
         }
         private void OnSelectedCharacter(object sender, EventArgs e)
         {
-            picboxCharacter.Image = (Image)CharacterRes.GetObject(ddlCharacterList.SelectedValue.ToString());
-            var characterBtn = typeof(CharacterBtn)
-              .GetProperties(BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Public)
-              .Where(p => p.PropertyType == typeof(string) && p.Name == ddlCharacterList.SelectedValue.ToString())
-              .Select(x => new DropDownList { TEXT = x.GetValue(null, null).ToString() })
-              .First();
-            picboxCharacterBtn.Image = (Image)CharacterRes.GetObject(characterBtn.TEXT);
+            var dto = new CharacterDA();
+            dto = CHARC;
+
+            dto.DTO.Model.GenerateType = CharacterGenerateType.GET_SKILL;
+            dto.DTO.Model.CHARAC = ddlCharacterList.SelectedValue.ToString();
+            dto.Generate(dto.DTO);
+
+            picboxCharacter.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.CHARAC);
+            picboxCharacterBtn.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.BTN_CHARAC);
+            btnUnionBurst.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.UNION_BURST);
+            btnSkill_1.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.SKILL1);
+            btnSkill_2.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.SKILL2);
+            btnExSkill.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.EXSKILL);
+
+            ShowButtonImage();
         }
         #endregion
     }

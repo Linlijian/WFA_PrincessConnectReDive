@@ -20,6 +20,9 @@ namespace Character
         public string GIF_SKILL1 { get; set; }
         public string GIF_SKILL2 { get; set; }
 
+        public string KEY_SKILL { get; set; }
+        public string LINK_GIF { get; set; }
+
         public string ErrorMassage { get; set; }
         public string GenerateType { get; set; }
 
