@@ -39,10 +39,7 @@ namespace UtilityLib
                 client.Dispose();
                 stream.Dispose();
             }
-            catch { }
-            
-
-           
+            catch { ERROR = "Can't load config. Contact us!"; }
         }
 
         public void writeConfig(FormState state)

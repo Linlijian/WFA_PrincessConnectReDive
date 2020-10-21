@@ -16,6 +16,9 @@ namespace Character
         public string SKILL1 { get; set; }
         public string SKILL2 { get; set; }
         public string EXSKILL { get; set; }
+        public string GIF_UNION_BURST { get; set; }
+        public string GIF_SKILL1 { get; set; }
+        public string GIF_SKILL2 { get; set; }
 
         public string ErrorMassage { get; set; }
         public string GenerateType { get; set; }

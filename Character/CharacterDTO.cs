@@ -25,7 +25,7 @@ namespace Character
         public List<CharacterModel> Models { get; set; }
     }
 
-    public class IMG2PDFGenerateType
+    public class CharacterGenerateType
     {
         /// <summary>
         /// Guild Name
@@ -38,7 +38,7 @@ namespace Character
         /// <summary>
         /// image to folder sort
         /// </summary>
-        public const string IMG2PDFF002SORT = "IMG2PDFF002SORT";
+        public const string GET_SKILL = "GET_SKILL";
         /// <summary>
         /// image to multi folder
         /// </summary>

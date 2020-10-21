@@ -5,7 +5,10 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_03",
     "Skill2": "Skill_01",
-    "EXSkill": "EXSkill_03"
+    "EXSkill": "EXSkill_03",
+    "GifUnionBurst": "https://media.giphy.com/media/mSGd4Sl5Fmo0kfUd1D/giphy.gif",
+    "GifSkill1": "https://media.giphy.com/media/SWnErgMqCONAPJ12ML/giphy.gif",
+    "GifSkill2": "https://media.giphy.com/media/nBaZxFm8mQrugLp82O/giphy.gif"
   },
   {
     "Charc": "chara_01_02",
