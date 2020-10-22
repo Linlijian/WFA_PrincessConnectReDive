@@ -219,7 +219,7 @@
             // 
             // picboxCharacterBtn
             // 
-            this.picboxCharacterBtn.Location = new System.Drawing.Point(812, 50);
+            this.picboxCharacterBtn.Location = new System.Drawing.Point(809, 50);
             this.picboxCharacterBtn.Name = "picboxCharacterBtn";
             this.picboxCharacterBtn.Size = new System.Drawing.Size(182, 53);
             this.picboxCharacterBtn.TabIndex = 7;
