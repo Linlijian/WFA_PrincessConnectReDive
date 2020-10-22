@@ -8,7 +8,8 @@
     "EXSkill": "EXSkill_03",
     "GifUnionBurst": "https://media.giphy.com/media/mSGd4Sl5Fmo0kfUd1D/giphy.gif",
     "GifSkill1": "https://media.giphy.com/media/SWnErgMqCONAPJ12ML/giphy.gif",
-    "GifSkill2": "https://media.giphy.com/media/nBaZxFm8mQrugLp82O/giphy.gif"
+    "GifSkill2": "https://media.giphy.com/media/nBaZxFm8mQrugLp82O/giphy.gif",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_01_02",
@@ -16,7 +17,11 @@
     "UnionBurst": "UnionBurst_06",
     "Skill1": "Skill_12",
     "Skill2": "Skill_06",
-    "EXSkill": "EXSkill_05"
+    "EXSkill": "EXSkill_05",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_01_03",
@@ -24,7 +29,11 @@
     "UnionBurst": "UnionBurst_02",
     "Skill1": "Skill_01",
     "Skill2": "Skill_03",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_02_01",
@@ -32,7 +41,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_01",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_02_02",
@@ -40,7 +53,11 @@
     "UnionBurst": "UnionBurst_02",
     "Skill1": "Skill_12",
     "Skill2": "Skill_03",
-    "EXSkill": "EXSkill_05"
+    "EXSkill": "EXSkill_05",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_02_03",
@@ -48,7 +65,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_01",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_03_02",
@@ -56,7 +77,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_04",
     "Skill2": "Skill_16",
-    "EXSkill": "EXSkill_04"
+    "EXSkill": "EXSkill_04",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_03_03",
@@ -64,7 +89,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_03",
     "Skill2": "Skill_01",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_04_01",
@@ -72,7 +101,11 @@
     "UnionBurst": "UnionBurst_03",
     "Skill1": "Skill_07",
     "Skill2": "Skill_04",
-    "EXSkill": "EXSkill_04"
+    "EXSkill": "EXSkill_04",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_04_02",
@@ -80,7 +113,11 @@
     "UnionBurst": "UnionBurst_02",
     "Skill1": "Skill_03",
     "Skill2": "Skill_06",
-    "EXSkill": "EXSkill_05"
+    "EXSkill": "EXSkill_05",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_05_01",
@@ -88,7 +125,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_03",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_05_03",
@@ -96,7 +137,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_11",
     "Skill2": "Skill_06",
-    "EXSkill": "EXSkill_04"
+    "EXSkill": "EXSkill_04",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_06_01",
@@ -104,7 +149,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_10",
     "Skill2": "Skill_14",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_06_03",
@@ -112,7 +161,11 @@
     "UnionBurst": "UnionBurst_06",
     "Skill1": "Skill_12",
     "Skill2": "Skill_12",
-    "EXSkill": "EXSkill_05"
+    "EXSkill": "EXSkill_05",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_07_02",
@@ -120,7 +173,11 @@
     "UnionBurst": "UnionBurst_06",
     "Skill1": "Skill_03",
     "Skill2": "Skill_12",
-    "EXSkill": "EXSkill_05"
+    "EXSkill": "EXSkill_05",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_07_03",
@@ -128,7 +185,11 @@
     "UnionBurst": "UnionBurst_03",
     "Skill1": "Skill_12",
     "Skill2": "Skill_06",
-    "EXSkill": "EXSkill_05"
+    "EXSkill": "EXSkill_05",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_07_04",
@@ -136,7 +197,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_05",
     "Skill2": "Skill_06",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_07_05",
@@ -144,7 +209,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_05",
     "Skill2": "Skill_04",
-    "EXSkill": "EXSkill_04"
+    "EXSkill": "EXSkill_04",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_08_01",
@@ -152,7 +221,11 @@
     "UnionBurst": "UnionBurst_04",
     "Skill1": "Skill_04",
     "Skill2": "Skill_01",
-    "EXSkill": "EXSkill_02"
+    "EXSkill": "EXSkill_02",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_09_01",
@@ -160,7 +233,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_02",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_09_02",
@@ -168,7 +245,11 @@
     "UnionBurst": "UnionBurst_06",
     "Skill1": "Skill_12",
     "Skill2": "Skill_04",
-    "EXSkill": "EXSkill_05"
+    "EXSkill": "EXSkill_05",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_09_04",
@@ -176,7 +257,11 @@
     "UnionBurst": "UnionBurst_05",
     "Skill1": "Skill_03",
     "Skill2": "Skill_07",
-    "EXSkill": "EXSkill_03"
+    "EXSkill": "EXSkill_03",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_10_01",
@@ -184,7 +269,11 @@
     "UnionBurst": "UnionBurst_03",
     "Skill1": "Skill_04",
     "Skill2": "Skill_11",
-    "EXSkill": "EXSkill_04"
+    "EXSkill": "EXSkill_04",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_10_02",
@@ -192,7 +281,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_06",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_10_03",
@@ -200,7 +293,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_03",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_11_01",
@@ -208,7 +305,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_01",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_11_02",
@@ -216,7 +317,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_01",
-    "EXSkill": "EXSkill_04"
+    "EXSkill": "EXSkill_04",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_11_03",
@@ -224,7 +329,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_01",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_11_04",
@@ -232,7 +341,11 @@
     "UnionBurst": "UnionBurst_03",
     "Skill1": "Skill_03",
     "Skill2": "Skill_07",
-    "EXSkill": "EXSkill_02"
+    "EXSkill": "EXSkill_02",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_12_01",
@@ -240,7 +353,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_15",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_12_02",
@@ -248,7 +365,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_04",
     "Skill2": "Skill_01",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_12_03",
@@ -256,7 +377,11 @@
     "UnionBurst": "UnionBurst_04",
     "Skill1": "Skill_04",
     "Skill2": "Skill_02",
-    "EXSkill": "EXSkill_02"
+    "EXSkill": "EXSkill_02",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_12_04",
@@ -264,7 +389,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_02",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_13_02",
@@ -272,7 +401,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_08",
     "Skill2": "Skill_09",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_13_03",
@@ -280,7 +413,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_03",
     "Skill2": "Skill_10",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_13_05",
@@ -288,7 +425,11 @@
     "UnionBurst": "UnionBurst_06",
     "Skill1": "Skill_12",
     "Skill2": "Skill_05",
-    "EXSkill": "EXSkill_05"
+    "EXSkill": "EXSkill_05",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_14_01",
@@ -296,7 +437,11 @@
     "UnionBurst": "UnionBurst_07",
     "Skill1": "Skill_12",
     "Skill2": "Skill_02",
-    "EXSkill": "EXSkill_05"
+    "EXSkill": "EXSkill_05",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_14_02",
@@ -304,7 +449,11 @@
     "UnionBurst": "UnionBurst_06",
     "Skill1": "Skill_12",
     "Skill2": "Skill_12",
-    "EXSkill": "EXSkill_05"
+    "EXSkill": "EXSkill_05",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_14_03",
@@ -312,7 +461,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_03",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_15_01",
@@ -320,7 +473,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_03",
     "Skill2": "Skill_01",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_15_02",
@@ -328,7 +485,11 @@
     "UnionBurst": "UnionBurst_06",
     "Skill1": "Skill_11",
     "Skill2": "Skill_02",
-    "EXSkill": "EXSkill_05"
+    "EXSkill": "EXSkill_05",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_15_03",
@@ -336,7 +497,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_01",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_15_04",
@@ -344,7 +509,11 @@
     "UnionBurst": "UnionBurst_04",
     "Skill1": "Skill_13",
     "Skill2": "Skill_03",
-    "EXSkill": "EXSkill_02"
+    "EXSkill": "EXSkill_02",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_17_01",
@@ -352,7 +521,11 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_02",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
   },
   {
     "Charc": "chara_19_01",
@@ -360,7 +533,71 @@
     "UnionBurst": "UnionBurst_01",
     "Skill1": "Skill_01",
     "Skill2": "Skill_02",
-    "EXSkill": "EXSkill_01"
+    "EXSkill": "EXSkill_01",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "Guild"
+  },
+  {
+    "Charc": "chara_16_01",
+    "BtnCharac": "btn_16_01",
+    "UnionBurst": "",
+    "Skill1": "",
+    "Skill2": "",
+    "EXSkill": "",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "FFAffiliation"
+  },
+  {
+    "Charc": "chara_16_02",
+    "BtnCharac": "btn_16_02",
+    "UnionBurst": "",
+    "Skill1": "",
+    "Skill2": "",
+    "EXSkill": "",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "FFAffiliation"
+  },
+  {
+    "Charc": "chara_16_03",
+    "BtnCharac": "btn_16_03",
+    "UnionBurst": "",
+    "Skill1": "",
+    "Skill2": "",
+    "EXSkill": "",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "FFAffiliation"
+  },
+  {
+    "Charc": "chara_16_04",
+    "BtnCharac": "btn_16_04",
+    "UnionBurst": "",
+    "Skill1": "",
+    "Skill2": "",
+    "EXSkill": "",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "FFAffiliation"
+  },
+  {
+    "Charc": "chara_18_01",
+    "BtnCharac": "btn_18_01",
+    "UnionBurst": "",
+    "Skill1": "",
+    "Skill2": "",
+    "EXSkill": "",
+    "GifUnionBurst": "",
+    "GifSkill1": "",
+    "GifSkill2": "",
+    "Type": "FFAffiliation"
   }
 
 ]
