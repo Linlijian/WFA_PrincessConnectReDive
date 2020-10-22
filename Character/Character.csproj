@@ -80,7 +80,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="file.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
@@ -198,6 +197,7 @@
     <Content Include="Resources\chara_15_04.png" />
     <Content Include="Resources\chara_17_01.png" />
     <Content Include="Resources\chara_19_01.png" />
+    <None Include="Resources\error.jpg" />
     <Content Include="Resources\EXSkill_01.png" />
     <Content Include="Resources\EXSkill_02.png" />
     <Content Include="Resources\EXSkill_03.png" />

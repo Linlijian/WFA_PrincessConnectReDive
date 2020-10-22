@@ -73,6 +73,16 @@ namespace WFA_PlugIn.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CharcLoading2 {
+            get {
+                object obj = ResourceManager.GetObject("CharcLoading2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap delete_32px {
             get {
                 object obj = ResourceManager.GetObject("delete_32px", resourceCulture);
@@ -96,6 +106,16 @@ namespace WFA_PlugIn.Properties {
         internal static System.Drawing.Bitmap TextLoading {
             get {
                 object obj = ResourceManager.GetObject("TextLoading", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TextLoading2 {
+            get {
+                object obj = ResourceManager.GetObject("TextLoading2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

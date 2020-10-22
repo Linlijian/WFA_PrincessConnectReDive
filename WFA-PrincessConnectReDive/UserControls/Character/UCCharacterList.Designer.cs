@@ -32,8 +32,6 @@
             this.lblGuildNane = new System.Windows.Forms.Label();
             this.lblCharacter = new System.Windows.Forms.Label();
             this.ddlCharacterList = new System.Windows.Forms.ComboBox();
-            this.picboxCharacter = new System.Windows.Forms.PictureBox();
-            this.picboxCharacterBtn = new System.Windows.Forms.PictureBox();
             this.btnUnionBurst = new System.Windows.Forms.Button();
             this.btnSkill_1 = new System.Windows.Forms.Button();
             this.btnSkill_2 = new System.Windows.Forms.Button();
@@ -43,9 +41,11 @@
             this.lblSkill_2 = new System.Windows.Forms.Label();
             this.lblExSkill = new System.Windows.Forms.Label();
             this.picboxGif = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacter)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacterBtn)).BeginInit();
+            this.picboxCharacterBtn = new System.Windows.Forms.PictureBox();
+            this.picboxCharacter = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picboxGif)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacterBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacter)).BeginInit();
             this.SuspendLayout();
             // 
             // ddlGuildList
@@ -95,23 +95,6 @@
             this.ddlCharacterList.Name = "ddlCharacterList";
             this.ddlCharacterList.Size = new System.Drawing.Size(284, 27);
             this.ddlCharacterList.TabIndex = 5;
-            // 
-            // picboxCharacter
-            // 
-            this.picboxCharacter.Location = new System.Drawing.Point(545, 109);
-            this.picboxCharacter.Name = "picboxCharacter";
-            this.picboxCharacter.Size = new System.Drawing.Size(446, 568);
-            this.picboxCharacter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picboxCharacter.TabIndex = 6;
-            this.picboxCharacter.TabStop = false;
-            // 
-            // picboxCharacterBtn
-            // 
-            this.picboxCharacterBtn.Location = new System.Drawing.Point(812, 50);
-            this.picboxCharacterBtn.Name = "picboxCharacterBtn";
-            this.picboxCharacterBtn.Size = new System.Drawing.Size(182, 53);
-            this.picboxCharacterBtn.TabIndex = 7;
-            this.picboxCharacterBtn.TabStop = false;
             // 
             // btnUnionBurst
             // 
@@ -234,6 +217,23 @@
             this.picboxGif.TabIndex = 27;
             this.picboxGif.TabStop = false;
             // 
+            // picboxCharacterBtn
+            // 
+            this.picboxCharacterBtn.Location = new System.Drawing.Point(812, 50);
+            this.picboxCharacterBtn.Name = "picboxCharacterBtn";
+            this.picboxCharacterBtn.Size = new System.Drawing.Size(182, 53);
+            this.picboxCharacterBtn.TabIndex = 7;
+            this.picboxCharacterBtn.TabStop = false;
+            // 
+            // picboxCharacter
+            // 
+            this.picboxCharacter.Location = new System.Drawing.Point(545, 109);
+            this.picboxCharacter.Name = "picboxCharacter";
+            this.picboxCharacter.Size = new System.Drawing.Size(446, 568);
+            this.picboxCharacter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picboxCharacter.TabIndex = 6;
+            this.picboxCharacter.TabStop = false;
+            // 
             // UCCharacterList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -258,9 +258,9 @@
             this.Name = "UCCharacterList";
             this.Size = new System.Drawing.Size(994, 680);
             this.Load += new System.EventHandler(this.UCCharacterList_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacter)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacterBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxGif)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacterBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxCharacter)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

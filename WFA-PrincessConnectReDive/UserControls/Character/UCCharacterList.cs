@@ -80,11 +80,7 @@ namespace Character
         }
         private void btnExSkill_Click(object sender, EventArgs e)
         {
-            CHARC.DTO.Model.KEY_SKILL = CharacterGenerateType.ExSkill;
-            using (WaitFormGif form = new WaitFormGif(LoadGif))
-            {
-                form.ShowDialog(this);
-            }
+            picboxGif.Image = (Image)CharacterRes.GetObject("error");
         }
         #endregion
 
@@ -167,6 +163,7 @@ namespace Character
             btnSkill_1.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.SKILL1);
             btnSkill_2.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.SKILL2);
             btnExSkill.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.EXSKILL);
+            picboxGif.Image = null;
 
             ShowButtonImage();
         }
