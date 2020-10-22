@@ -18,12 +18,12 @@ using Newtonsoft.Json;
 
 namespace Character
 {
-    public partial class UCCharacterList : UserControl
+    public partial class UCFFAffiliation : UserControl
     {
         #region init
         private CharacterDA CHARC = new CharacterDA();
 
-        public UCCharacterList()
+        public UCFFAffiliation()
         {
             InitializeComponent();
         }
@@ -34,20 +34,16 @@ namespace Character
         {           
             BindGuildLis();
             BindCharacterLis();
-            ShowButtonImage();
+            HideButtonImage();
 
             var dto = new CharacterDA();
 
-            dto.DTO.Model.GenerateType = CharacterGenerateType.GET_SKILL;
+            dto.DTO.Model.GenerateType = CharacterGenerateType.GET_FFAffiliation;
             dto.DTO.Model.CHARAC = ddlCharacterList.SelectedValue.ToString();
             dto.Generate(dto.DTO);
 
             picboxCharacter.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.CHARAC);
             picboxCharacterBtn.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.BTN_CHARAC);
-            btnUnionBurst.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.UNION_BURST);
-            btnSkill_1.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.SKILL1);
-            btnSkill_2.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.SKILL2);
-            btnExSkill.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.EXSKILL);
 
             CHARC = dto;
         }
@@ -108,10 +104,15 @@ namespace Character
             btnSkill_1.Hide();
             btnSkill_2.Hide();
             btnUnionBurst.Hide();
+
+            lblExSkill.Hide();
+            lblUnionBurst.Hide();
+            lblSkill_1.Hide();
+            lblSkill_2.Hide();
         }
         private void BindGuildLis()
         {
-            var guildList = typeof(GuildName)
+            var guildList = typeof(FFAffiliationGuild)
                .GetProperties(BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Public)
                .Where(p => p.PropertyType == typeof(string))
                .Select(x => new { TEXT = x.GetValue(null, null), VALUES = x.Name })
@@ -137,7 +138,7 @@ namespace Character
         }
         private void BindCharacterLis()
         {
-            var characterList = typeof(CharacterName)
+            var characterList = typeof(FFAffiliationName)
                .GetProperties(BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Public)
                .Where(p => p.PropertyType == typeof(string))
                .Select(x => new { TEXT = x.GetValue(null, null), VALUES = x.Name })
@@ -153,19 +154,12 @@ namespace Character
             var dto = new CharacterDA();
             dto = CHARC;
 
-            dto.DTO.Model.GenerateType = CharacterGenerateType.GET_SKILL;
+            dto.DTO.Model.GenerateType = CharacterGenerateType.GET_FFAffiliation;
             dto.DTO.Model.CHARAC = ddlCharacterList.SelectedValue.ToString();
             dto.Generate(dto.DTO);
 
             picboxCharacter.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.CHARAC);
             picboxCharacterBtn.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.BTN_CHARAC);
-            btnUnionBurst.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.UNION_BURST);
-            btnSkill_1.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.SKILL1);
-            btnSkill_2.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.SKILL2);
-            btnExSkill.Image = (Image)CharacterRes.GetObject(dto.DTO.Model.EXSKILL);
-            picboxGif.Image = null;
-
-            ShowButtonImage();
         }
         #endregion
     }

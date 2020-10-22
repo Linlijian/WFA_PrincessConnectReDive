@@ -1,6 +1,6 @@
 ﻿namespace Character
 {
-    partial class UCCharacterList
+    partial class UCGuild
     {
         /// <summary> 
         /// Required designer variable.

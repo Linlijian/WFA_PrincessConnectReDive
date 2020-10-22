@@ -27,18 +27,10 @@ namespace Character
 
     public class CharacterGenerateType
     {
-        /// <summary>
-        /// Guild Name
-        /// </summary>
         public const string DDL001 = "DDL001";
-        /// <summary>
-        /// Character Name
-        /// </summary>
         public const string DDL002 = "DDL002";
-        /// <summary>
-        /// image to folder sort
-        /// </summary>
-        public const string GET_SKILL = "GET_SKILL";
+        public const string GET_Guild = "GET_Guild";
+        public const string GET_FFAffiliation = "GET_FFAffiliation";
 
         public const string GifSkill = "GifSkill";
         public const string UnionBurst = "UnionBurst";

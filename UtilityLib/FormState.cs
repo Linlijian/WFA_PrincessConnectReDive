@@ -17,5 +17,6 @@ namespace UtilityLib
         public string GIFUNIONBURST { get; set; }
         public string GIFSKILL1 { get; set; }
         public string GIFSKILL2 { get; set; }
+        public string TYPE { get; set; }
     }
 }

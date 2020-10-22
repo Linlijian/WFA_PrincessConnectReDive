@@ -67,6 +67,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CharacterRes.resx</DependentUpon>
     </Compile>
+    <Compile Include="Translate\FFAffiliationGuild.Designer.cs">
+      <DependentUpon>FFAffiliationGuild.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Translate\FFAffiliationName.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FFAffiliationName.resx</DependentUpon>
+    </Compile>
     <Compile Include="Translate\GuildName.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -102,6 +112,7 @@
     <Content Include="Resources\bg_14.jpg" />
     <Content Include="Resources\bg_15.jpg" />
     <Content Include="Resources\bg_17.jpg" />
+    <Content Include="Resources\bg_18.jpg" />
     <Content Include="Resources\bg_19.jpg" />
     <Content Include="Resources\btn-guild.png" />
     <Content Include="Resources\btn-other.png" />
@@ -150,7 +161,12 @@
     <Content Include="Resources\btn_15_02.png" />
     <Content Include="Resources\btn_15_03.png" />
     <Content Include="Resources\btn_15_04.png" />
+    <Content Include="Resources\btn_16_01.png" />
+    <Content Include="Resources\btn_16_02.png" />
+    <Content Include="Resources\btn_16_03.png" />
+    <Content Include="Resources\btn_16_04.png" />
     <Content Include="Resources\btn_17_01.png" />
+    <Content Include="Resources\btn_18_01.png" />
     <Content Include="Resources\btn_19_01.png" />
     <Content Include="Resources\chara_01_01.png" />
     <Content Include="Resources\chara_01_02.png" />
@@ -195,7 +211,12 @@
     <Content Include="Resources\chara_15_02.png" />
     <Content Include="Resources\chara_15_03.png" />
     <Content Include="Resources\chara_15_04.png" />
+    <Content Include="Resources\chara_16_01.png" />
+    <Content Include="Resources\chara_16_02.png" />
+    <Content Include="Resources\chara_16_03.png" />
+    <Content Include="Resources\chara_16_04.png" />
     <Content Include="Resources\chara_17_01.png" />
+    <Content Include="Resources\chara_18_01.png" />
     <Content Include="Resources\chara_19_01.png" />
     <None Include="Resources\error.jpg" />
     <Content Include="Resources\EXSkill_01.png" />
@@ -221,6 +242,7 @@
     <Content Include="Resources\guild-name_14.png" />
     <Content Include="Resources\guild-name_15.png" />
     <Content Include="Resources\guild-name_17.png" />
+    <Content Include="Resources\guild-name_18.png" />
     <Content Include="Resources\i3playicon%281%29.png" />
     <Content Include="Resources\icon-clover.png" />
     <Content Include="Resources\logo_in.png" />
@@ -261,6 +283,14 @@
     <EmbeddedResource Include="Translate\CharacterRes.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>CharacterRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translate\FFAffiliationGuild.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>FFAffiliationGuild.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translate\FFAffiliationName.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>FFAffiliationName.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Translate\GuildName.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

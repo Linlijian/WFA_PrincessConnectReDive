@@ -31,17 +31,18 @@ namespace UserControls
             MainForm.Instance.PnlClientBody.Controls["UCClientBody"].BringToFront();
         }
 
-        private void btnSingleFolder_Click(object sender, EventArgs e)
+        private void btnGuild_Click(object sender, EventArgs e)
         {
             Global.PActiveHide(panelClient);
-            Global.PActiveShow(PActiveSingleFolder);
-            UserControlHelper.SetUserControl(panelClientTask, userControl: new UCCharacterList(), dockStyle: UserControlDockStyle.DockStyleFill);
+            Global.PActiveShow(PActiveGuild);
+            UserControlHelper.SetUserControl(panelClientTask, userControl: new UCGuild(), dockStyle: UserControlDockStyle.DockStyleFill);
         }        
 
-        private void btnMulFolder_Click(object sender, EventArgs e)
+        private void btnFFAffiliation_Click(object sender, EventArgs e)
         {
             Global.PActiveHide(panelClient);
-            Global.PActiveShow(PActiveMultiFolder);
+            Global.PActiveShow(PActiveFFAffiliation);
+            UserControlHelper.SetUserControl(panelClientTask, userControl: new UCFFAffiliation(), dockStyle: UserControlDockStyle.DockStyleFill);
         }
     }
 }

@@ -448,11 +448,56 @@ namespace Character {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to btn_16_01.
+        /// </summary>
+        public static string chara_16_01 {
+            get {
+                return ResourceManager.GetString("chara_16_01", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to btn_16_02.
+        /// </summary>
+        public static string chara_16_02 {
+            get {
+                return ResourceManager.GetString("chara_16_02", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to btn_16_03.
+        /// </summary>
+        public static string chara_16_03 {
+            get {
+                return ResourceManager.GetString("chara_16_03", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to btn_16_04.
+        /// </summary>
+        public static string chara_16_04 {
+            get {
+                return ResourceManager.GetString("chara_16_04", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to btn_17_01.
         /// </summary>
         public static string chara_17_01 {
             get {
                 return ResourceManager.GetString("chara_17_01", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to btn_18_01.
+        /// </summary>
+        public static string chara_18_01 {
+            get {
+                return ResourceManager.GetString("chara_18_01", resourceCulture);
             }
         }
         

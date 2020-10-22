@@ -22,6 +22,7 @@ namespace Character
 
         public string KEY_SKILL { get; set; }
         public string LINK_GIF { get; set; }
+        public string TYPE { get; set; }
 
         public string ErrorMassage { get; set; }
         public string GenerateType { get; set; }

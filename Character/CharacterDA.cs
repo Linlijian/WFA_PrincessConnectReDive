@@ -30,8 +30,9 @@ namespace Character
         {
             switch (dto.Model.GenerateType)
             {
-                case CharacterGenerateType.GET_SKILL: return GET_SKILL(dto);
+                case CharacterGenerateType.GET_Guild: return GET_Guild(dto);
                 case CharacterGenerateType.GifSkill: return GifSkill(dto);
+                case CharacterGenerateType.GET_FFAffiliation: return GET_FFAffiliation(dto);
             }
             return dto;
         }
@@ -44,9 +45,9 @@ namespace Character
             return dto;
         }
         #region img 2 pdf
-        public CharacterDTO GET_SKILL(CharacterDTO dto)
+        public CharacterDTO GET_Guild(CharacterDTO dto)
         {
-            dto.Model = SessionHelper.SYS_JSON_FILE.Where(m => m.CHARC == dto.Model.CHARAC)
+            dto.Model = SessionHelper.SYS_JSON_FILE.Where(m => m.CHARC == dto.Model.CHARAC && m.TYPE == "Guild")
                 .Select(x => new CharacterModel
                 {
                     CHARAC = x.CHARC,
@@ -57,7 +58,27 @@ namespace Character
                     UNION_BURST = x.UNIONBURST,
                     GIF_SKILL1  =x.GIFSKILL1,
                     GIF_SKILL2 = x.GIFSKILL2,
-                    GIF_UNION_BURST = x.GIFUNIONBURST
+                    GIF_UNION_BURST = x.GIFUNIONBURST,
+                    TYPE = x.TYPE
+                }).FirstOrDefault();
+
+            return dto;
+        }
+        public CharacterDTO GET_FFAffiliation(CharacterDTO dto)
+        {
+            dto.Model = SessionHelper.SYS_JSON_FILE.Where(m => m.CHARC == dto.Model.CHARAC && m.TYPE == "FFAffiliation")
+                .Select(x => new CharacterModel
+                {
+                    CHARAC = x.CHARC,
+                    BTN_CHARAC = x.BTNCHARAC,
+                    SKILL1 = x.SKILL1,
+                    SKILL2 = x.SKILL2,
+                    EXSKILL = x.EXSKILL,
+                    UNION_BURST = x.UNIONBURST,
+                    GIF_SKILL1 = x.GIFSKILL1,
+                    GIF_SKILL2 = x.GIFSKILL2,
+                    GIF_UNION_BURST = x.GIFUNIONBURST,
+                    TYPE = x.TYPE
                 }).FirstOrDefault();
 
             return dto;
@@ -75,7 +96,8 @@ namespace Character
                     UNION_BURST = x.UNIONBURST,
                     GIF_SKILL1 = x.GIFSKILL1,
                     GIF_SKILL2 = x.GIFSKILL2,
-                    GIF_UNION_BURST = x.GIFUNIONBURST
+                    GIF_UNION_BURST = x.GIFUNIONBURST,
+                    TYPE = x.TYPE
                 }).FirstOrDefault();
 
             switch (dto.Model.KEY_SKILL)

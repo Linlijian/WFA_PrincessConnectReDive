@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panelClient = new System.Windows.Forms.Panel();
-            this.panelMultiFolder = new System.Windows.Forms.Panel();
-            this.PActiveMultiFolder = new System.Windows.Forms.Panel();
+            this.panelFFAffiliation = new System.Windows.Forms.Panel();
+            this.PActiveFFAffiliation = new System.Windows.Forms.Panel();
             this.btnFFAffiliation = new System.Windows.Forms.Button();
-            this.panelSingleFolder = new System.Windows.Forms.Panel();
-            this.PActiveSingleFolder = new System.Windows.Forms.Panel();
+            this.panelGuild = new System.Windows.Forms.Panel();
+            this.PActiveGuild = new System.Windows.Forms.Panel();
             this.btnGuild = new System.Windows.Forms.Button();
             this.panelTitle = new System.Windows.Forms.Panel();
             this.lblActiveTask = new System.Windows.Forms.Label();
@@ -41,8 +41,8 @@
             this.btnHome = new System.Windows.Forms.Button();
             this.panelClientTask = new System.Windows.Forms.Panel();
             this.panelClient.SuspendLayout();
-            this.panelMultiFolder.SuspendLayout();
-            this.panelSingleFolder.SuspendLayout();
+            this.panelFFAffiliation.SuspendLayout();
+            this.panelGuild.SuspendLayout();
             this.panelTitle.SuspendLayout();
             this.panelHome.SuspendLayout();
             this.SuspendLayout();
@@ -50,8 +50,8 @@
             // panelClient
             // 
             this.panelClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
-            this.panelClient.Controls.Add(this.panelMultiFolder);
-            this.panelClient.Controls.Add(this.panelSingleFolder);
+            this.panelClient.Controls.Add(this.panelFFAffiliation);
+            this.panelClient.Controls.Add(this.panelGuild);
             this.panelClient.Controls.Add(this.panelTitle);
             this.panelClient.Controls.Add(this.panelHome);
             this.panelClient.Dock = System.Windows.Forms.DockStyle.Left;
@@ -60,23 +60,23 @@
             this.panelClient.Size = new System.Drawing.Size(256, 680);
             this.panelClient.TabIndex = 1;
             // 
-            // panelMultiFolder
+            // panelFFAffiliation
             // 
-            this.panelMultiFolder.Controls.Add(this.PActiveMultiFolder);
-            this.panelMultiFolder.Controls.Add(this.btnFFAffiliation);
-            this.panelMultiFolder.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelMultiFolder.Location = new System.Drawing.Point(0, 196);
-            this.panelMultiFolder.Name = "panelMultiFolder";
-            this.panelMultiFolder.Size = new System.Drawing.Size(256, 38);
-            this.panelMultiFolder.TabIndex = 24;
+            this.panelFFAffiliation.Controls.Add(this.PActiveFFAffiliation);
+            this.panelFFAffiliation.Controls.Add(this.btnFFAffiliation);
+            this.panelFFAffiliation.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelFFAffiliation.Location = new System.Drawing.Point(0, 196);
+            this.panelFFAffiliation.Name = "panelFFAffiliation";
+            this.panelFFAffiliation.Size = new System.Drawing.Size(256, 38);
+            this.panelFFAffiliation.TabIndex = 24;
             // 
-            // PActiveMultiFolder
+            // PActiveFFAffiliation
             // 
-            this.PActiveMultiFolder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(125)))), ((int)(((byte)(154)))));
-            this.PActiveMultiFolder.Location = new System.Drawing.Point(0, 0);
-            this.PActiveMultiFolder.Name = "PActiveMultiFolder";
-            this.PActiveMultiFolder.Size = new System.Drawing.Size(6, 35);
-            this.PActiveMultiFolder.TabIndex = 15;
+            this.PActiveFFAffiliation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(125)))), ((int)(((byte)(154)))));
+            this.PActiveFFAffiliation.Location = new System.Drawing.Point(0, 0);
+            this.PActiveFFAffiliation.Name = "PActiveFFAffiliation";
+            this.PActiveFFAffiliation.Size = new System.Drawing.Size(6, 35);
+            this.PActiveFFAffiliation.TabIndex = 15;
             // 
             // btnFFAffiliation
             // 
@@ -97,25 +97,25 @@
             this.btnFFAffiliation.Text = "          ไร้สังกัด";
             this.btnFFAffiliation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFFAffiliation.UseVisualStyleBackColor = true;
-            this.btnFFAffiliation.Click += new System.EventHandler(this.btnMulFolder_Click);
+            this.btnFFAffiliation.Click += new System.EventHandler(this.btnFFAffiliation_Click);
             // 
-            // panelSingleFolder
+            // panelGuild
             // 
-            this.panelSingleFolder.Controls.Add(this.PActiveSingleFolder);
-            this.panelSingleFolder.Controls.Add(this.btnGuild);
-            this.panelSingleFolder.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSingleFolder.Location = new System.Drawing.Point(0, 158);
-            this.panelSingleFolder.Name = "panelSingleFolder";
-            this.panelSingleFolder.Size = new System.Drawing.Size(256, 38);
-            this.panelSingleFolder.TabIndex = 22;
+            this.panelGuild.Controls.Add(this.PActiveGuild);
+            this.panelGuild.Controls.Add(this.btnGuild);
+            this.panelGuild.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelGuild.Location = new System.Drawing.Point(0, 158);
+            this.panelGuild.Name = "panelGuild";
+            this.panelGuild.Size = new System.Drawing.Size(256, 38);
+            this.panelGuild.TabIndex = 22;
             // 
-            // PActiveSingleFolder
+            // PActiveGuild
             // 
-            this.PActiveSingleFolder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(125)))), ((int)(((byte)(154)))));
-            this.PActiveSingleFolder.Location = new System.Drawing.Point(0, 0);
-            this.PActiveSingleFolder.Name = "PActiveSingleFolder";
-            this.PActiveSingleFolder.Size = new System.Drawing.Size(6, 35);
-            this.PActiveSingleFolder.TabIndex = 15;
+            this.PActiveGuild.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(125)))), ((int)(((byte)(154)))));
+            this.PActiveGuild.Location = new System.Drawing.Point(0, 0);
+            this.PActiveGuild.Name = "PActiveGuild";
+            this.PActiveGuild.Size = new System.Drawing.Size(6, 35);
+            this.PActiveGuild.TabIndex = 15;
             // 
             // btnGuild
             // 
@@ -135,7 +135,7 @@
             this.btnGuild.Text = "          กิลด์";
             this.btnGuild.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGuild.UseVisualStyleBackColor = true;
-            this.btnGuild.Click += new System.EventHandler(this.btnSingleFolder_Click);
+            this.btnGuild.Click += new System.EventHandler(this.btnGuild_Click);
             // 
             // panelTitle
             // 
@@ -209,8 +209,8 @@
             this.Name = "UCClientCharacter";
             this.Size = new System.Drawing.Size(1250, 680);
             this.panelClient.ResumeLayout(false);
-            this.panelMultiFolder.ResumeLayout(false);
-            this.panelSingleFolder.ResumeLayout(false);
+            this.panelFFAffiliation.ResumeLayout(false);
+            this.panelGuild.ResumeLayout(false);
             this.panelTitle.ResumeLayout(false);
             this.panelTitle.PerformLayout();
             this.panelHome.ResumeLayout(false);
@@ -221,15 +221,15 @@
         #endregion
 
         private System.Windows.Forms.Panel panelClient;
-        private System.Windows.Forms.Panel PActiveSingleFolder;
+        private System.Windows.Forms.Panel PActiveGuild;
         private System.Windows.Forms.Button btnGuild;
         private System.Windows.Forms.Label lblActiveTask;
         private System.Windows.Forms.Panel panelClientTask;
         private System.Windows.Forms.Panel panelHome;
         private System.Windows.Forms.Panel panelTitle;
-        private System.Windows.Forms.Panel panelSingleFolder;
-        private System.Windows.Forms.Panel panelMultiFolder;
-        private System.Windows.Forms.Panel PActiveMultiFolder;
+        private System.Windows.Forms.Panel panelGuild;
+        private System.Windows.Forms.Panel panelFFAffiliation;
+        private System.Windows.Forms.Panel PActiveFFAffiliation;
         private System.Windows.Forms.Button btnFFAffiliation;
         private System.Windows.Forms.Button btnHome;
     }

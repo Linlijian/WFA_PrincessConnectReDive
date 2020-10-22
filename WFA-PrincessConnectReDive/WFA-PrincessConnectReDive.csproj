@@ -65,11 +65,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControls\Character\UCCharacterList.cs">
+    <Compile Include="UserControls\Character\UCGuild.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\Character\UCCharacterList.Designer.cs">
-      <DependentUpon>UCCharacterList.cs</DependentUpon>
+    <Compile Include="UserControls\Character\UCGuild.Designer.cs">
+      <DependentUpon>UCGuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Character\UCFFAffiliation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Character\UCFFAffiliation.Designer.cs">
+      <DependentUpon>UCFFAffiliation.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\Character\UCClientCharacter.cs">
       <SubType>UserControl</SubType>
@@ -108,8 +114,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UserControls\Character\UCCharacterList.resx">
-      <DependentUpon>UCCharacterList.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\Character\UCGuild.resx">
+      <DependentUpon>UCGuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Character\UCFFAffiliation.resx">
+      <DependentUpon>UCFFAffiliation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Character\UCClientCharacter.resx">
       <DependentUpon>UCClientCharacter.cs</DependentUpon>
